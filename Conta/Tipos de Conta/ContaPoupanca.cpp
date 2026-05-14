@@ -12,7 +12,7 @@ bool ContaPoupanca::depositar(double valor) {
     }
 
     setSaldo(getSaldo() + valor);
-    std::cout << "Deposito de " << std::fixed << std::setprecision(2) << valor << << " EUR efetuado com sucesso. \n";
+    std::cout << "Deposito de " << std::fixed << std::setprecision(2) << valor  << " EUR efetuado com sucesso. \n";
 
     std::cout << "Novo saldo: " << getSaldo() << " EUR \n";
 
@@ -20,4 +20,13 @@ bool ContaPoupanca::depositar(double valor) {
 }
 
 
-void ContaPoupanca::consultarSaldo() const{}
+void ContaPoupanca::consultarSaldo() const {
+
+    std::cout << "Saldo atual: (Poupança "<< getNumeroConta()  << "): " << std::fixed << std::setprecision(2) << getSaldo() << " EUR \n";
+
+}
+
+void ContaPoupança::mostrarInfo() {
+
+    std::cout<< "[Conta Poupança] Numero: " << numeroConta << " | Saldo: " << std::fixed << std::setprecision(2)<< saldo << " EUR \n";
+}
