@@ -2,7 +2,7 @@
 #define PROJETOFSOFT_CONTAPOUPANCA_H
 
 #include
-#include "../Conta.h"
+#include "Conta.h"
 
 class ContaPoupanca : public Conta {
 
