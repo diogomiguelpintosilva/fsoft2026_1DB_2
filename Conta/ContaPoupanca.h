@@ -1,7 +1,6 @@
 #ifndef PROJETOFSOFT_CONTAPOUPANCA_H
 #define PROJETOFSOFT_CONTAPOUPANCA_H
 
-#include
 #include "Conta.h"
 
 class ContaPoupanca : public Conta {

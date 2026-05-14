@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 26)
 
 add_executable(ProjetoFSOFT main.cpp
         Transacoes/Transacoes.h
-        "Conta/Tipos de Conta/ContaPoupanca.h"
+        "Conta/ContaPoupanca.h"
         "Conta/ContaOrdem.h"
         Conta/Conta.h
         Gerenciamento/Gerenciamento.h
@@ -17,4 +17,5 @@ add_executable(ProjetoFSOFT main.cpp
         Gerenciamento/Gerenciamento.cpp
         GestorSistemaBancario.cpp
         Transacoes/TipoTransacao.h
-        Transacoes/TipoTransacao.cpp)
+        Transacoes/TipoTransacao.cpp
+        Conta/ContaPoupanca.h)
