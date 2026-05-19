@@ -7,7 +7,20 @@
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68f93e39-7a62-4456-a50c-c56d087d8a71" name="Changes" comment="Criação dos ficheiros: &#10;- ViewUtils.h&#10;- ContaPoupancaService.cpp" />
+    <list default="true" id="68f93e39-7a62-4456-a50c-c56d087d8a71" name="Changes" comment="Organização do trabalho">
+      <change beforePath="$PROJECT_DIR$/Project/Headers/Controllers/ClienteController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Controllers/ClienteController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Headers/Controllers/ContaOrdemController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Controllers/ContaOrdemController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Headers/Controllers/ContaPoupancaController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Controllers/ContaPoupancaController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Headers/Controllers/GerenciamentoController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Controllers/GerenciamentoController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Headers/Gerenciamento.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Gerenciamento.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Headers/GestorSistemaBancario.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/GestorSistemaBancario.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Headers/Services/ClienteService.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Services/ClienteService.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Headers/Services/ContaOrdemService.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Services/ContaOrdemService.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Headers/Services/GerenciamentoService.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Services/GerenciamentoService.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Headers/Views/ViewCliente.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Views/ViewCliente.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Headers/Views/ViewContaOrdem.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Views/ViewContaOrdem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Headers/Views/ViewContaPoupanca.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Views/ViewContaPoupanca.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +100,7 @@
       <workItem from="1779121636711" duration="150000" />
       <workItem from="1779185705364" duration="4990000" />
       <workItem from="1779201635160" duration="2567000" />
+      <workItem from="1779204451880" duration="846000" />
     </task>
     <task id="LOCAL-00001" summary="Organizar os ficheiros">
       <option name="closed" value="true" />
@@ -136,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779204170945</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Organização do trabalho">
+      <option name="closed" value="true" />
+      <created>1779204674013</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1779204674013</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +180,7 @@
     <MESSAGE value="Criação dos ficheiros da View, Controller e Service. Para nos orientarmos e organizarmos" />
     <MESSAGE value="." />
     <MESSAGE value="Criação dos ficheiros: &#10;- ViewUtils.h&#10;- ContaPoupancaService.cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação dos ficheiros: &#10;- ViewUtils.h&#10;- ContaPoupancaService.cpp" />
+    <MESSAGE value="Organização do trabalho" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organização do trabalho" />
   </component>
 </project>

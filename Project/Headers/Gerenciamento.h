@@ -1,3 +1,6 @@
+#ifndef GERENCIAMENTO_H
+#define GERENCIAMENTO_H
+
 #include <string>
 
 class Gerenciamento {
@@ -17,4 +20,4 @@ private:
 
 };
 
-#endif
+#endif //GERENCIAMENTO_H

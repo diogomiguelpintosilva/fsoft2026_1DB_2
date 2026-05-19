@@ -12,4 +12,4 @@ public:
     Gernciamento* obterGerenciamento(Cliente*cliente);
 };
 
-#endif
+#endif //GERENCIAMENTOSERVICE_H
