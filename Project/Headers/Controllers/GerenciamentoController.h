@@ -1,8 +1,16 @@
-//
-// Created by diogosilva on 5/18/26.
-//
+#indef GERENCIAMENTOCONTROLLER_H
+#define GERENCIAMENTOCONTROLLER_H
 
-#ifndef TRABALHO_DE_SISTEMA_BANCÁRIO_GERENCIAMENTOCONTROLLER_H
-#define TRABALHO_DE_SISTEMA_BANCÁRIO_GERENCIAMENTOCONTROLLER_H
+#include "service/GerenciamentoService.h"
 
-#endif //TRABALHO_DE_SISTEMA_BANCÁRIO_GERENCIAMENTOCONTROLLER_H
+class GerenciamentoController {
+public:
+    GerenciamentoController(GerenciamentoService& gerenciamentoService);
+
+    Gerenciamento* obter(Cliente* cliente);
+
+private:
+    GerenciamentoService& gerenciamentoService;
+};
+
+#endif

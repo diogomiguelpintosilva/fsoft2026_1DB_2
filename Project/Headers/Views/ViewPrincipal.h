@@ -1,8 +1,18 @@
-//
-// Created by diogosilva on 5/18/26.
-//
+#indef VIEWPRINCIPAL_H
+#define VIEWPRINCIPAL_H
 
-#ifndef TRABALHO_DE_SISTEMA_BANCÁRIO_VIEWPRINCIPAL_H
-#define TRABALHO_DE_SISTEMA_BANCÁRIO_VIEWPRINCIPAL_H
+#include "controller/ClienteController.h"
+#include "view/ViewCliente.h"
 
-#endif //TRABALHO_DE_SISTEMA_BANCÁRIO_VIEWPRINCIPAL_H
+class ViewPrincipal {
+public:
+    ViewPrincipal(ClienteController& clienteController, ViewCliente& viewCliente);
+private:
+    ViewCliente& viewCliente;
+    ClienteController& clienteController;
+
+    void opcaoRegistar();
+    void opcaoLogin();
+};
+
+#endif

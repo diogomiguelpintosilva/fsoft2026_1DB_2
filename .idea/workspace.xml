@@ -6,8 +6,18 @@
   <component name="BackendCodeEditorMiscSettings">
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
   </component>
+  <component name="CMakeSettings">
+    <configurations />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="68f93e39-7a62-4456-a50c-c56d087d8a71" name="Changes" comment="Criação dos ficheiros da View, Controller e Service. Para nos orientarmos e organizarmos" />
+    <list default="true" id="68f93e39-7a62-4456-a50c-c56d087d8a71" name="Changes" comment="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Headers/Controllers/GerenciamentoController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Controllers/GerenciamentoController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Headers/Views/ViewPrincipal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Views/ViewPrincipal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Sources/Controllers/GerenciamentoController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Sources/Controllers/GerenciamentoController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Sources/Services/GerenciamentoService.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Sources/Services/GerenciamentoService.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Sources/Views/ViewPrincipal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Sources/Views/ViewPrincipal.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,12 +35,12 @@
     &quot;assignee&quot;: &quot;diogomiguelpintosilva&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/diogomiguelpintosilva/fsoft2026_1DB_2.git&quot;,
-    &quot;accountId&quot;: &quot;2b86ea12-e1b2-4f95-a7db-26cf74efcb72&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/diogomiguelpintosilva/fsoft2026_1DB_2.git",
+    "accountId": "c1cbfce6-dfc1-4aef-a0dd-d837e2572bbe"
   }
-}</component>
+}]]></component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="GEHKNh0p" />
   </component>
@@ -55,6 +65,10 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/diogosilva/CLionProjects/Trabalho de Sistema Bancário",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "org.rust.first.attach.projects": "true",
     "vue.rearranger.settings.migration": "true"
@@ -78,6 +92,8 @@
       <workItem from="1779120434750" duration="124000" />
       <workItem from="1779121314951" duration="217000" />
       <workItem from="1779121552258" duration="41000" />
+      <workItem from="1779196503878" duration="202000" />
+      <workItem from="1779196885572" duration="2150000" />
     </task>
     <task id="LOCAL-00001" summary="Organizar os ficheiros">
       <option name="closed" value="true" />
@@ -131,6 +147,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Organizar os ficheiros" />
     <MESSAGE value="Criação dos ficheiros da View, Controller e Service. Para nos orientarmos e organizarmos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação dos ficheiros da View, Controller e Service. Para nos orientarmos e organizarmos" />
+    <MESSAGE value="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h" />
   </component>
 </project>

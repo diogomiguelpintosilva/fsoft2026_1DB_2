@@ -1,3 +1,7 @@
-//
-// Created by diogosilva on 5/18/26.
-//
+#include "controller/GerenciamentoService.h"
+
+GerenciamentoService::GerenciamentoService(GerenciamentoService&gerenciamentoService):gerenciamentoService() {}
+
+GerenciamentoService* GerenciamentoService::obter (Cliente* cliente) {
+    return gerenciamentoService.obterGerenciamento(cliente);
+}
