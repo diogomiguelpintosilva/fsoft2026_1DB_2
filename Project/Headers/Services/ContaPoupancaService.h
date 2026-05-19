@@ -1,5 +1,5 @@
-#ifndef TRABALHO_DE_SISTEMA_BANCÁRIO_CONTAPOUPANCASERVICE_H
-#define TRABALHO_DE_SISTEMA_BANCÁRIO_CONTAPOUPANCASERVICE_H
+#ifndef CONTAPOUPANCASERVICE_H
+#define CONTAPOUPANCASERVICE_H
 
 #include "ContaOrdem.h"
 #include <string>
@@ -16,4 +16,4 @@ class ContaPoupancaService {
     bool depositar(ContaPoupanca* conta, double valor);
 };
 
-#endif //TRABALHO_DE_SISTEMA_BANCÁRIO_CONTAPOUPANCASERVICE_H
+#endif //CONTAPOUPANCASERVICE_H

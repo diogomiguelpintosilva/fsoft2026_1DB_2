@@ -1,5 +1,5 @@
-#ifndef PROJETOFSOFT_CONTA_H
-#define PROJETOFSOFT_CONTA_H
+#ifndef CONTA_H
+#define CONTA_H
 
 #include <string>
 
@@ -29,4 +29,4 @@ protected:
     void getSaldo(double novoSaldo);
 };
 
-#endif //PROJETOFSOFT_CONTA_H
+#endif //CONTA_H

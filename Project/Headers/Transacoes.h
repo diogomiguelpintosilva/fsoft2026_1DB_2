@@ -1,5 +1,5 @@
-#ifndef PROJETOFSOFT_TRANSACOES_H
-#define PROJETOFSOFT_TRANSACOES_H
+#ifndef TRANSACOES_H
+#define TRANSACOES_H
 
 #include <string>
 #include <vector>
@@ -36,4 +36,4 @@ protected:
     static std::string dataAtual();
 };
 
-#endif //PROJETOFSOFT_TRANSACOES_H
+#endif //TRANSACOES_H

@@ -1,5 +1,5 @@
-#ifndef PROJETOFSOFT_TIPOTRANSACAO_H
-#define PROJETOFSOFT_TIPOTRANSACAO_H
+#ifndef TIPOTRANSACAO_H
+#define TIPOTRANSACAO_H
 
 #include "Transacoes.h"
 #include <string>
@@ -26,4 +26,4 @@ private:
     TipoOperacao operacao;
 };
 
-#endif //PROJETOFSOFT_TIPOTRANSACAO_H
+#endif //TIPOTRANSACAO_H

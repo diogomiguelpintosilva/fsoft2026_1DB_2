@@ -1,5 +1,5 @@
-#ifndef PROJETOFSOFT_CONTAPOUPANCA_H
-#define PROJETOFSOFT_CONTAPOUPANCA_H
+#ifndef CONTAPOUPANCA_H
+#define CONTAPOUPANCA_H
 
 #include "Conta.h"
 
@@ -15,4 +15,4 @@ public:
     void mostrarInfo() const;
 };
 
-#endif //PROJETOFSOFT_CONTAPOUPANCA_H
+#endif //CONTAPOUPANCA_H

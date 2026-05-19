@@ -1,5 +1,5 @@
-#ifndef TRABALHO_DE_SISTEMA_BANCÁRIO_VIEWUTILS_H
-#define TRABALHO_DE_SISTEMA_BANCÁRIO_VIEWUTILS_H
+#ifndef VIEWUTILS_H
+#define VIEWUTILS_H
 
 #include <string>
 #include <limits>
@@ -23,4 +23,4 @@ inline void cabecalho(const std::string& titulo) {
     std::cout << "=======================\n";
 }
 
-#endif //TRABALHO_DE_SISTEMA_BANCÁRIO_VIEWUTILS_H
+#endif //VIEWUTILS_H

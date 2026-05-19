@@ -1,5 +1,5 @@
-#ifndef PROJETOFSOFT_CONTAORDEM_H
-#define PROJETOFSOFT_CONTAORDEM_H
+#ifndef CONTAORDEM_H
+#define CONTAORDEM_H
 
 #include "Conta.h"
 #include "ContaPoupanca.h"
@@ -36,4 +36,4 @@ private:
     std::sting gerarNumeroPoupanca() const;
 }
 
-#endif //PROJETOFSOFT_CONTAORDEM_H
+#endif //CONTAORDEM_H

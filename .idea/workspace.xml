@@ -7,11 +7,7 @@
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68f93e39-7a62-4456-a50c-c56d087d8a71" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Headers/Views/ViewUtils.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Views/ViewUtils.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Sources/Services/ContaPoupancaService.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Sources/Services/ContaPoupancaService.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="68f93e39-7a62-4456-a50c-c56d087d8a71" name="Changes" comment="Criação dos ficheiros: &#10;- ViewUtils.h&#10;- ContaPoupancaService.cpp" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +86,7 @@
       <workItem from="1779121552258" duration="41000" />
       <workItem from="1779121636711" duration="150000" />
       <workItem from="1779185705364" duration="4990000" />
-      <workItem from="1779201635160" duration="2277000" />
+      <workItem from="1779201635160" duration="2567000" />
     </task>
     <task id="LOCAL-00001" summary="Organizar os ficheiros">
       <option name="closed" value="true" />
@@ -132,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779121684292</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Criação dos ficheiros: &#10;- ViewUtils.h&#10;- ContaPoupancaService.cpp">
+      <option name="closed" value="true" />
+      <created>1779204170945</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1779204170945</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +157,7 @@
     <MESSAGE value="Organizar os ficheiros" />
     <MESSAGE value="Criação dos ficheiros da View, Controller e Service. Para nos orientarmos e organizarmos" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Criação dos ficheiros: &#10;- ViewUtils.h&#10;- ContaPoupancaService.cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação dos ficheiros: &#10;- ViewUtils.h&#10;- ContaPoupancaService.cpp" />
   </component>
 </project>
