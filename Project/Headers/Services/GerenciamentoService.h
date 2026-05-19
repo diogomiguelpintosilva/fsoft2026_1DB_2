@@ -1,8 +1,15 @@
-//
-// Created by diogosilva on 5/18/26.
-//
+#indef GERENCIAMENTOSERVICE_H
+#define GERENCIAMENTOSERVICE_H
 
-#ifndef TRABALHO_DE_SISTEMA_BANCÁRIO_GERENCIAMENTOSERVICE_H
-#define TRABALHO_DE_SISTEMA_BANCÁRIO_GERENCIAMENTOSERVICE_H
+#include "Cliente.h"
 
-#endif //TRABALHO_DE_SISTEMA_BANCÁRIO_GERENCIAMENTOSERVICE_H
+class GerenciamentoService {
+public:
+    GerenciamentoService();
+
+    void atualizar(Cliente*cliente);
+
+    Gernciamento* obterGerenciamento(Cliente*cliente);
+};
+
+#endif
