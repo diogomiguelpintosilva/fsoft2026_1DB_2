@@ -6,20 +6,15 @@
   <component name="BackendCodeEditorMiscSettings">
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
   </component>
+  <component name="CMakeSettings">
+    <configurations />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="68f93e39-7a62-4456-a50c-c56d087d8a71" name="Changes" comment="Organização do trabalho">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/Headers/Controllers/ClienteController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Controllers/ClienteController.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Headers/Controllers/ContaOrdemController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Controllers/ContaOrdemController.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Headers/Controllers/ContaPoupancaController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Controllers/ContaPoupancaController.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Headers/Controllers/GerenciamentoController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Controllers/GerenciamentoController.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Headers/Gerenciamento.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Gerenciamento.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Headers/GestorSistemaBancario.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/GestorSistemaBancario.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Headers/Services/ClienteService.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Services/ClienteService.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Headers/Services/ContaOrdemService.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Services/ContaOrdemService.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Headers/Services/GerenciamentoService.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Services/GerenciamentoService.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/Headers/Views/ViewCliente.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Views/ViewCliente.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Headers/Views/ViewContaOrdem.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Views/ViewContaOrdem.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Headers/Views/ViewContaPoupanca.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Views/ViewContaPoupanca.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Sources/Views/ViewCliente.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Sources/Views/ViewCliente.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,24 +56,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/diogosilva/CLionProjects/Trabalho de Sistema Bancário&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/diogosilva/CLionProjects/Trabalho de Sistema Bancário",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.first.attach.projects": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Project/Headers" />
