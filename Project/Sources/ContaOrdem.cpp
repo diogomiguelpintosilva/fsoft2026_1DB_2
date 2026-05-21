@@ -78,7 +78,7 @@ void ContaOrdem::listarContasPoupanca() const {
 const std::vector<std::pair<std::string, double>> ContaOrdem::getRegistosHistorico() const {
     std::vector<std::pair<std::string, double>> resultado;
     for (const auto& t : transacoes) {
-        for (const auto& r : t.getRegistos()) {
+        for (const auto& r : t.getRegistars()) {
             resultado.emplace_back(r.descricao, r.valor);
         }
     }
