@@ -7,8 +7,7 @@
 #include <vector>
 #include <memory>
 
-class ContaOrdem: public Conta {
-
+class ContaOrdem : public Conta {
 public:
     ContaOrdem(const std::string& numeroConta, const std::string& pin);
 
@@ -28,12 +27,10 @@ public:
     void mostrarHistorico() const;
 
 private:
-    std::vector< std::shared_ptr<ContaPoupanca> > contasPoupanca;
-
+    std::vector<std::shared_ptr<ContaPoupanca>> contasPoupanca;
     std::vector<TipoTransacao> transacoes;
 
     void registarTransacao(TipoTransacao::TipoOperacao op, double valor, const std::string& descricao);
-
     std::string gerarNumeroPoupanca() const;
 };
 
