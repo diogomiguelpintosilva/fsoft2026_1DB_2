@@ -7,15 +7,14 @@
 #include <vector>
 #include <memory>
 
-class ContaOrdem: public Conta {
-
+class ContaOrdem : public Conta {
 public:
-    ContaOrdem(const std::string& numeroConta,const std::string& pin);
+    ContaOrdem(const std::string& numeroConta, const std::string& pin);
 
     bool depositar(double valor);
     bool levantar(double valor);
     bool transferir(ContaOrdem& contaDestino, double valor);
-    void consultarSaldo () const;
+    void consultarSaldo() const;
 
     void adicionarContaPoupanca(const std::string& pin);
     ContaPoupanca* getContaPoupanca(size_t indice = 0);
@@ -24,16 +23,15 @@ public:
 
     void mostrarInfo() const;
 
+    const std::vector<std::pair<std::string, double>> getRegistosHistorico() const;
+    void mostrarHistorico() const;
 
 private:
-
-    std::vector< std::shared_ptr<ContaPoupanca> > ContasPoupanca;
-
+    std::vector<std::shared_ptr<ContaPoupanca>> contasPoupanca;
     std::vector<TipoTransacao> transacoes;
 
     void registarTransacao(TipoTransacao::TipoOperacao op, double valor, const std::string& descricao);
+    std::string gerarNumeroPoupanca() const;
+};
 
-    std::sting gerarNumeroPoupanca() const;
-}
-
-#endif //CONTAORDEM_H
+#endif // CONTAORDEM_H

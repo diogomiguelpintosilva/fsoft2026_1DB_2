@@ -3,21 +3,24 @@
 
 #include <string>
 
+class ContaOrdem;
+
 class Gerenciamento {
 public:
     Gerenciamento();
 
-    double getDespesas()const;
-    double getGanhos()const;
-    double getLucros()const;
+    void atualizar(const ContaOrdem& conta);
 
-    void mostrarResumo()const;
+    double getDespesas() const;
+    double getGanhos() const;
+    double getLucros() const;
+
+    void mostrarResumo() const;
 
 private:
     double despesas;
     double ganhos;
-    double Lucros;
-
+    double lucros;
 };
 
-#endif //GERENCIAMENTO_H
+#endif // GERENCIAMENTO_H

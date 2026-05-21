@@ -19,11 +19,10 @@ public:
 
     std::string getOperacaoString() const;
 
-    void adicionarAoHistórico();
-
+    void adicionarAoHistorico() override;
 
 private:
     TipoOperacao operacao;
 };
 
-#endif //TIPOTRANSACAO_H
+#endif // TIPOTRANSACAO_H
