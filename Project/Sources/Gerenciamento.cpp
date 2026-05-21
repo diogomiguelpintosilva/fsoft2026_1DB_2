@@ -1,6 +1,5 @@
 #include "Gerenciamento.h"
 #include "ContaOrdem.h"
-#include "TipoTransacao.h"
 #include <iostream>
 #include <iomanip>
 
@@ -11,7 +10,8 @@ void Gerenciamento::atualizar(const ContaOrdem& conta) {
     despesas = 0.0;
     ganhos   = 0.0;
 
-    for (const auto& [descricao, valor] : conta.getRegistosHistorico()) {
+    for (const auto& registo : conta.getRegistosHistorico()) {
+        double valor = registo.second;
         if (valor > 0) {
             ganhos += valor;
         } else {
