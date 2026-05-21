@@ -7,9 +7,9 @@
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68f93e39-7a62-4456-a50c-c56d087d8a71" name="Changes" comment="Organização do trabalho">
+    <list default="true" id="68f93e39-7a62-4456-a50c-c56d087d8a71" name="Changes" comment="Organização de código">
+      <change afterPath="$PROJECT_DIR$/Project/Headers/Cliente.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +91,8 @@
       <workItem from="1779185705364" duration="4990000" />
       <workItem from="1779201635160" duration="2567000" />
       <workItem from="1779204451880" duration="846000" />
+      <workItem from="1779349240435" duration="216000" />
+      <workItem from="1779349897555" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="Organizar os ficheiros">
       <option name="closed" value="true" />
@@ -148,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779204674013</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Organização de código">
+      <option name="closed" value="true" />
+      <created>1779349399815</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1779349399815</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +181,7 @@
     <MESSAGE value="." />
     <MESSAGE value="Criação dos ficheiros: &#10;- ViewUtils.h&#10;- ContaPoupancaService.cpp" />
     <MESSAGE value="Organização do trabalho" />
-    <option name="LAST_COMMIT_MESSAGE" value="Organização do trabalho" />
+    <MESSAGE value="Organização de código" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organização de código" />
   </component>
 </project>
