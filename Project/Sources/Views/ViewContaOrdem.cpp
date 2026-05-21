@@ -1,5 +1,5 @@
-#include "view/ViewContaOrdem.h"
-#include "view/ViewUtils.h"
+#include "ViewContaOrdem.h"
+#include "ViewUtils.h"
 #include <iostream>
 
 ViewContaOrdem::ViewContaOrdem(ContaOrdemController& contaOrdemController, ContaPoupancaController& contaPoupancaController):contaOrdemController(ContaOrdemController), contaPoupancaController(ContaPoupancaController) {}
