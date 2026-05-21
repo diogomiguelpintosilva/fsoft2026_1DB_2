@@ -1,6 +1,6 @@
 #include "Gerenciamento.h"
 #include "ContaOrdem.h"
-#include "Tipo.h"
+#include "TipoTransacao.h"
 #include <iostream>
 #include <iomanip>
 
