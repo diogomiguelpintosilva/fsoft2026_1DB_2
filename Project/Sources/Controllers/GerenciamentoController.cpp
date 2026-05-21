@@ -1,7 +1,8 @@
-#include "controller/GerenciamentoService.h"
+#include "controller/GerenciamentoController.h"
 
-GerenciamentoService::GerenciamentoService(GerenciamentoService&gerenciamentoService):gerenciamentoService() {}
+GerenciamentoController::GerenciamentoController(GerenciamentoService& gerenciamentoService)
+    : gerenciamentoService(gerenciamentoService) {}
 
-GerenciamentoService* GerenciamentoService::obter (Cliente* cliente) {
+Gerenciamento* GerenciamentoController::obter(Cliente* cliente) {
     return gerenciamentoService.obterGerenciamento(cliente);
 }
