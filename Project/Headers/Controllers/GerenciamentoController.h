@@ -1,7 +1,8 @@
-#indef GERENCIAMENTOCONTROLLER_H
+#ifndef GERENCIAMENTOCONTROLLER_H
 #define GERENCIAMENTOCONTROLLER_H
 
 #include "service/GerenciamentoService.h"
+#include "Gerenciamento.h"
 
 class GerenciamentoController {
 public:
@@ -13,4 +14,4 @@ private:
     GerenciamentoService& gerenciamentoService;
 };
 
-#endif //GERENCIAMENTOCONTROLLER
+#endif // GERENCIAMENTOCONTROLLER_H
