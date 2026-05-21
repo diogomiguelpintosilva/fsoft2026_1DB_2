@@ -1,4 +1,4 @@
-#include "controller/ContaPoupancaController.h"
+#include "ContaPoupancaController.h"
 
 ContaPoupancaController::ContaPoupancaController(ContaPoupancaService& contaPoupancaService)
     : contaPoupancaService(contaPoupancaService) {}

@@ -1,9 +1,9 @@
 #ifndef VIEWCONTAORDEM_H
 #define VIEWCONTAORDEM_H
 
-#include "controller/ContaOrdemController.h"
-#include "controller/ContaPoupancaController.h"
-#include "view/ViewContaPoupanca.h"
+#include "ContaOrdemController.h"
+#include "ContaPoupancaController.h"
+#include "ViewContaPoupanca.h"
 
 class ViewContaOrdem {
 public:

@@ -1,4 +1,4 @@
-#include "controller/ContaOrdemController.h"
+#include "ContaOrdemController.h"
 
 ContaOrdemController::ContaOrdemController(ContaOrdemService& contaOrdemService)
     : contaOrdemService(contaOrdemService) {}

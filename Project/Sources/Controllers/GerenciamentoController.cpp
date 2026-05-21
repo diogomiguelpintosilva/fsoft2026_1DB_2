@@ -1,4 +1,4 @@
-#include "controller/GerenciamentoController.h"
+#include "GerenciamentoController.h"
 
 GerenciamentoController::GerenciamentoController(GerenciamentoService& gerenciamentoService)
     : gerenciamentoService(gerenciamentoService) {}

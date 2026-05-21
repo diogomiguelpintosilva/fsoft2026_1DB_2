@@ -1,7 +1,7 @@
 #ifndef VIEWCONTAPOUPANCA_H
 #define VIEWCONTAPOUPANCA_H
 
-#include "controller/ContaPoupancaController.h"
+#include "ContaPoupancaController.h"
 
 
 class ViewContaPoupanca {

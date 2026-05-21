@@ -1,8 +1,8 @@
 #ifndef VIEWPRINCIPAL_H
 #define VIEWPRINCIPAL_H
 
-#include "controller/ClienteController.h"
-#include "view/ViewCliente.h"
+#include "ClienteController.h"
+#include "ViewCliente.h"
 
 class ViewPrincipal {
 public:

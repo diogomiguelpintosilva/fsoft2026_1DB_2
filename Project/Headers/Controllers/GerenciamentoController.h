@@ -1,7 +1,7 @@
 #ifndef GERENCIAMENTOCONTROLLER_H
 #define GERENCIAMENTOCONTROLLER_H
 
-#include "service/GerenciamentoService.h"
+#include "GerenciamentoService.h"
 #include "Gerenciamento.h"
 
 class GerenciamentoController {

@@ -1,19 +1,19 @@
 #include "GestorSistemaBancario.h"
 
 #include "ClienteService.h"
-#include "service/ContaOrdemService.h"
-#include "service/ContaPoupancaService.h"
-#include "service/GerenciamentoService.h"
+#include "ContaOrdemService.h"
+#include "ContaPoupancaService.h"
+#include "GerenciamentoService.h"
 
-#include "controller/ClienteController.h"
-#include "controller/ContaOrdemController.h"
-#include "controller/ContaPoupancaController.h"
-#include "controller/GerenciamentoController.h"
+#include "ClienteController.h"
+#include "ContaOrdemController.h"
+#include "ContaPoupancaController.h"
+#include "GerenciamentoController.h"
 
-#include "view/ViewPrincipal.h"
-#include "view/ViewCliente.h"
-#include "view/ViewContaOrdem.h"
-#include "view/ViewContaPoupanca.h"
+#include "ViewPrincipal.h"
+#include "ViewCliente.h"
+#include "ViewContaOrdem.h"
+#include "ViewContaPoupanca.h"
 
 int main() {
     GestorSistemaBancario gestor("Banco ISEP");

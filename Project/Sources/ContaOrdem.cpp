@@ -18,6 +18,22 @@ bool ContaOrdem::depositar(double valor) {
     return true;
 }
 
+bool ContaOrdem::levantar(double valor) {
+    if (valor <= 0) {
+        std::cout << "[ERRO] Valor invalido. Deve ser maior que zero! \n";
+        return false;
+    }
+    if (valor > getSaldo()) {
+        std::cout << "[ERRO] Saldo insuficiente! Saldo disponivel: " << std::fixed << std::setprecision(2) << getSaldo() << " EUR \n";
+        return false;
+    }
+    setSaldo(getSaldo() - valor);
+    registarTransacao(TipoTransacao::TipoOperacao::LEVANTAR, -valor, "Levantamento");
+    std::cout << "Levantamento de " << std::fixed << std::setprecision(2) << valor << " EUR efetuado com sucesso. \n";
+    std::cout << "Novo saldo: " << getSaldo() << " EUR \n";
+    return true;
+}
+
 bool ContaOrdem::transferir(ContaOrdem& contaDestino, double valor) {
     if (valor <= 0) {
         std::cout << "[ERRO] Valor invalido. Deve ser maior que zero! \n";

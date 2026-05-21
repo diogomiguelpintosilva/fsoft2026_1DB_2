@@ -21,6 +21,7 @@ add_executable(fsoft2026_1DB_2
         Sources/ContaOrdem.cpp
 
         Headers/Cliente.h
+        Sources/Cliente.cpp
 
         Headers/ContaPoupanca.h
         Sources/ContaPoupanca.cpp
@@ -64,6 +65,7 @@ add_executable(fsoft2026_1DB_2
 
         Headers/Views/ViewCliente.h
         Sources/Views/ViewCliente.cpp
+
 
         Headers/Views/ViewContaOrdem.h
         Sources/Views/ViewContaOrdem.cpp

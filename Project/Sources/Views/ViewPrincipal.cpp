@@ -1,5 +1,5 @@
-#include "view/ViewPrincipal.h"
-#include "view/ViewUtils.h"
+#include "ViewPrincipal.h"
+#include "ViewUtils.h"
 #include <iostream>
 
 ViewPrincipal::ViewPrincipal(ClienteController& clienteController, ViewCliente& viewCliente)

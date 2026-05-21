@@ -1,5 +1,5 @@
-#include "view/ViewCliente.h"
-#include "view/ViewUtils.h"
+#include "ViewCliente.h"
+#include "ViewUtils.h"
 #include <iostream>
 
 ViewCliente::ViewCliente(ClienteController& clienteController,

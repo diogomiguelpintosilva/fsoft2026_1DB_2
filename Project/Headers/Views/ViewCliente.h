@@ -1,10 +1,10 @@
 #ifndef VIEWCLIENTE_H
 #define VIEWCLIENTE_H
 
-#include "controller/ClienteController.h"
-#include "controller/ContaOrdemController.h"
-#include "controller/GerenciamentoController.h"
-#include "view/ViewContaOrdem.h"
+#include "ClienteController.h"
+#include "ContaOrdemController.h"
+#include "GerenciamentoController.h"
+#include "ViewContaOrdem.h"
 
 class ViewCliente {
 public:

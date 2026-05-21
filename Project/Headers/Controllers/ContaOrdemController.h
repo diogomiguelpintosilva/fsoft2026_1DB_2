@@ -1,7 +1,7 @@
 #ifndef CONTAORDEMCONTROLLER_H
 #define CONTAORDEMCONTROLLER_H
 
-#include "service/ContaOrdemService.h"
+#include "ContaOrdemService.h"
 #include <string>
 
 class ContaOrdemController {
