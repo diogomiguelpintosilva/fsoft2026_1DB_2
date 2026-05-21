@@ -21,6 +21,10 @@ public:
     void listarClientes() const;
     const std::vector<std::shared_ptr<Cliente>>& getClientes() const;
 
+
+    Cliente* adicionarClienteCarregado(const std::string& nome, const std::string& nif, const std::string& password);
+
+
 private:
     std::string nome;
 

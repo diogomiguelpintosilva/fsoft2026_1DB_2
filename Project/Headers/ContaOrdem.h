@@ -26,6 +26,10 @@ public:
     const std::vector<std::pair<std::string, double>> getRegistosHistorico() const;
     void mostrarHistorico() const;
 
+
+    void adicionarContapoupancaCarregada(const std::string& numero, const std::string& pin, double valor);
+
+
 private:
     std::vector<std::shared_ptr<ContaPoupanca>> contasPoupanca;
     std::vector<TipoTransacao> transacoes;
