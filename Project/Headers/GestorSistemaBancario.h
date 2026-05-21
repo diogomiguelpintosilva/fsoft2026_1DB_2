@@ -19,6 +19,7 @@ public:
     bool existeNif(const std::string& nif) const;
 
     void listarClientes() const;
+    const std::vector<std::shared_ptr<Cliente>>& getClientes() const;
 
 private:
     std::string nome;

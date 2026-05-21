@@ -13,6 +13,7 @@
 #include "ViewPrincipal.h"
 #include "ViewCliente.h"
 #include "ViewContaPoupanca.h"
+#include "ViewGestor.h"
 
 int main() {
     GestorSistemaBancario gestor("Banco ISEP");
@@ -28,7 +29,8 @@ int main() {
     GerenciamentoController gerenciamentoController(gerenciamentoService);
 
     ViewCliente   viewCliente(clienteController, contaOrdemController, gerenciamentoController);
-    ViewPrincipal viewPrincipal(clienteController, viewCliente);
+    ViewGestor    viewGestor(gestor);
+    ViewPrincipal viewPrincipal(clienteController, viewCliente, viewGestor);
 
     viewPrincipal.iniciar(gestor.getNome());
 

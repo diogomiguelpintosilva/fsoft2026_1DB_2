@@ -2,8 +2,8 @@
 #include "ViewUtils.h"
 #include <iostream>
 
-ViewPrincipal::ViewPrincipal(ClienteController& clienteController, ViewCliente& viewCliente)
-    : clienteController(clienteController), viewCliente(viewCliente) {}
+ViewPrincipal::ViewPrincipal(ClienteController& clienteController, ViewCliente& viewCliente, ViewGestor& viewGestor)
+    : clienteController(clienteController), viewCliente(viewCliente), viewGestor(viewGestor) {}
 
 void ViewPrincipal::iniciar(const std::string& nomeGestor) {
     cabecalho("Bem-vindo ao " + nomeGestor);
@@ -12,6 +12,7 @@ void ViewPrincipal::iniciar(const std::string& nomeGestor) {
     do {
         std::cout << "\n  1. Registar novo cliente\n";
         std::cout << "  2. Iniciar sessao\n";
+        std::cout << "  3. Area do Gestor\n";
         std::cout << "  0. Sair\n";
         std::cout << "  Opcao: ";
         std::cin >> opcao;
@@ -20,6 +21,7 @@ void ViewPrincipal::iniciar(const std::string& nomeGestor) {
         switch (opcao) {
             case 1: opcaoRegistar(); break;
             case 2: opcaoLogin();    break;
+            case 3: opcaoGestor();   break;
             case 0: std::cout << "\n  Ate breve!\n\n"; break;
             default: std::cout << "  Opcao invalida.\n"; break;
         }
@@ -37,6 +39,10 @@ void ViewPrincipal::opcaoRegistar() {
 
     clienteController.registar(nome, nif, password);
     pausar();
+}
+
+void ViewPrincipal::opcaoGestor() {
+    viewGestor.entrar();
 }
 
 void ViewPrincipal::opcaoLogin() {

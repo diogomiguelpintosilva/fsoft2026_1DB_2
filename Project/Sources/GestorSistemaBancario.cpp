@@ -46,6 +46,10 @@ bool GestorSistemaBancario::existeNif(const std::string& nif) const {
     return false;
 }
 
+const std::vector<std::shared_ptr<Cliente>>& GestorSistemaBancario::getClientes() const {
+    return clientes;
+}
+
 void GestorSistemaBancario::listarClientes() const {
     if (clientes.empty()) {
         std::cout << "  Sem clientes registados.\n";
