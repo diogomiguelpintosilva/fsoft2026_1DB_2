@@ -26,7 +26,7 @@ void ContaPoupanca::consultarSaldo() const {
 
 }
 
-void ContaPoupança::mostrarInfo() {
+void ContaPoupanca::mostrarInfo() {
 
     std::cout<< "[Conta Poupança] Numero: " << numeroConta << " | Saldo: " << std::fixed << std::setprecision(2)<< saldo << " EUR \n";
 }
