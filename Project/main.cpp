@@ -12,7 +12,6 @@
 
 #include "ViewPrincipal.h"
 #include "ViewCliente.h"
-#include "ViewContaOrdem.h"
 #include "ViewContaPoupanca.h"
 
 int main() {
@@ -28,11 +27,8 @@ int main() {
     ContaPoupancaController contaPoupancaController(contaPoupancaService);
     GerenciamentoController gerenciamentoController(gerenciamentoService);
 
-    ViewContaPoupanca viewContaPoupanca(contaPoupancaController);
-    ViewContaOrdem    viewContaOrdem(contaOrdemController, contaPoupancaController);
-    ViewCliente       viewCliente(clienteController, contaOrdemController,
-                                  gerenciamentoController, viewContaOrdem);
-    ViewPrincipal     viewPrincipal(clienteController, viewCliente);
+    ViewCliente   viewCliente(clienteController, contaOrdemController, gerenciamentoController);
+    ViewPrincipal viewPrincipal(clienteController, viewCliente);
 
     viewPrincipal.iniciar(gestor.getNome());
 

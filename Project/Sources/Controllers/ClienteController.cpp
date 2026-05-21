@@ -3,9 +3,7 @@
 ClienteController::ClienteController(ClienteService& clienteService)
     : clienteService(clienteService) {}
 
-bool ClienteController::registar(const std::string& nome,
-                                  const std::string& nif,
-                                  const std::string& password) {
+bool ClienteController::registar(const std::string& nome, const std::string& nif, const std::string& password) {
     return clienteService.registarCliente(nome, nif, password);
 }
 

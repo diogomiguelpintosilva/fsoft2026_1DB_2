@@ -4,19 +4,17 @@
 
 ViewCliente::ViewCliente(ClienteController& clienteController,
                          ContaOrdemController& contaOrdemController,
-                         GerenciamentoController& gerenciamentoController,
-                         ViewContaOrdem& viewContaOrdem)
+                         GerenciamentoController& gerenciamentoController)
     : clienteController(clienteController),
       contaOrdemController(contaOrdemController),
-      gerenciamentoController(gerenciamentoController),
-      viewContaOrdem(viewContaOrdem) {}
+      gerenciamentoController(gerenciamentoController) {}
 
 void ViewCliente::mostrarMenu(Cliente* cliente) {
     int opcao;
     do {
         cabecalho("Menu do cliente - " + cliente->getNome());
         std::cout << "  1. Criar Conta Corrente\n";
-        std::cout << "  2. Aceder Conta Corrente\n";
+        std::cout << "  2. Aceder Conta Corrente (em breve)\n";
         std::cout << "  3. Ver gerenciamento financeiro\n";
         std::cout << "  4. Listar todas as contas\n";
         std::cout << "  0. Terminar sessao\n";
@@ -44,23 +42,8 @@ void ViewCliente::opcaoCriarConta(Cliente* cliente) {
 }
 
 void ViewCliente::opcaoAcederConta(Cliente* cliente) {
-    if (cliente->numContasOrdem() == 0) {
-        std::cout << "  Ainda nao tem contas correntes criadas.\n";
-        pausar();
-        return;
-    }
-    std::string numeroConta, pin;
-    std::cout << "  Numero da conta: ";
-    std::getline(std::cin, numeroConta);
-    std::cout << "  PIN: ";
-    std::getline(std::cin, pin);
-
-    ContaOrdem* conta = contaOrdemController.acederConta(cliente, numeroConta, pin);
-    if (conta != nullptr) {
-        viewContaOrdem.mostrarMenu(conta);
-    } else {
-        pausar();
-    }
+    std::cout << "  Funcionalidade disponivel em breve.\n";
+    pausar();
 }
 
 void ViewCliente::opcaoGerenciamento(Cliente* cliente) {
