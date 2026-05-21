@@ -6,19 +6,10 @@
   <component name="BackendCodeEditorMiscSettings">
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
-  <component name="CMakeRunConfigurationManager">
-    <generated />
-  </component>
-  <component name="CMakeSettings">
-    <configurations />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="68f93e39-7a62-4456-a50c-c56d087d8a71" name="Changes" comment="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h">
+    <list default="true" id="68f93e39-7a62-4456-a50c-c56d087d8a71" name="Changes" comment="Organização do trabalho">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Sources/Controllers/ClienteController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Sources/Controllers/ClienteController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,32 +155,11 @@
       <option name="project" value="LOCAL" />
       <updated>1779204674013</updated>
     </task>
-    <task id="LOCAL-00008" summary="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h">
-      <option name="closed" value="true" />
-      <created>1779351635925</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1779351635925</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h">
-      <option name="closed" value="true" />
-      <created>1779351769191</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1779351769191</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VCPKGProject">
-    <isAutomaticCheckingOnLaunch value="false" />
-    <isAutomaticFoundErrors value="true" />
-    <isAutomaticReloadCMake value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -208,7 +178,6 @@
     <MESSAGE value="." />
     <MESSAGE value="Criação dos ficheiros: &#10;- ViewUtils.h&#10;- ContaPoupancaService.cpp" />
     <MESSAGE value="Organização do trabalho" />
-    <MESSAGE value="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organização do trabalho" />
   </component>
 </project>
