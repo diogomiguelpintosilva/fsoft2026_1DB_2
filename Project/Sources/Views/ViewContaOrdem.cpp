@@ -2,7 +2,7 @@
 #include "ViewUtils.h"
 #include <iostream>
 
-ViewContaOrdem::ViewContaOrdem(ContaOrdemController& contaOrdemController, ContaPoupancaController& contaPoupancaController):contaOrdemController(ContaOrdemController), contaPoupancaController(ContaPoupancaController) {}
+ViewContaOrdem::ViewContaOrdem(ContaOrdemController& contaOrdemController, ContaPoupancaController& contaPoupancaController):contaOrdemController(contaOrdemController), contaPoupancaController(contaPoupancaController) {}
 
 void ViewContaOrdem::mostrarMenu(ContaOrdem* conta) {
     int opcao;
@@ -45,7 +45,7 @@ void ViewContaOrdem::opcaoDepositar(ContaOrdem*conta) {
 
 }
 
-void ViewContaOrdem::OpcaoLevantar(ContaOrdem*conta) {
+void ViewContaOrdem::opcaoLevantar(ContaOrdem*conta) {
     double valor;
     std::cout << "Valor a levantar: ";
     std::cin >> valor;
@@ -55,7 +55,8 @@ void ViewContaOrdem::OpcaoLevantar(ContaOrdem*conta) {
 
 }
 
-void ViewContaOrdem::OpcaoTransferir(ContaOrdem*conta) {
+void ViewContaOrdem::opcaoTransferir(ContaOrdem*conta) {
+    std::string nifDestino, numeroContaDestino;
     double valor;
 
     std::cout << "NIF do titular da conta destino";
@@ -106,13 +107,13 @@ void ViewContaOrdem::opcaoContasPoupanca(ContaOrdem* conta) {
             pausar();
 
         }else if(opcao == 2) {
-            if (conta -> numContasPounpanca() == 0) {
+            if (conta -> numContasPoupanca() == 0) {
                 std::cout << "Nao tens contas criadas.\n";
                 pausar();
 
             }else {
                 int indice;
-                std::cout << " Numero de conta (1-" << conta -> numContasPounpanca() << "): ";
+                std::cout << " Numero de conta (1-" << conta -> numContasPoupanca() << "): ";
                 std::cin >> indice;
                 limparInput();
 
