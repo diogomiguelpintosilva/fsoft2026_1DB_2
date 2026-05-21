@@ -1,19 +1,19 @@
 #include "service/GerenciamentoService.h"
-#include "iostream"
+#include <iostream>
 
-GerenciamentoService::GerenciamentoService(){}
+GerenciamentoService::GerenciamentoService() {}
 
-void GerenciamentoService::atualizar(Cliente* cliente){
-	if (cliente==nullptr){
-		std::cout<< "[Erro] Cliente inválido.\n";
+void GerenciamentoService::atualizar(Cliente* cliente) {
+	if (cliente == nullptr) {
+		std::cout << "  [ERRO] Cliente invalido.\n";
 		return;
 	}
-	cliente->atualizarGerencianto();
+	cliente->atualizarGerenciamento();
 }
 
-Gerenciamento*GerenciamentoService::obeterGerenciamento(Cliente* cliente){
-	if (cliente==nullptr){
-		stdd::cout << "[Erro] Cliente inválido.\n";
+Gerenciamento* GerenciamentoService::obterGerenciamento(Cliente* cliente) {
+	if (cliente == nullptr) {
+		std::cout << "  [ERRO] Cliente invalido.\n";
 		return nullptr;
 	}
 	atualizar(cliente);
