@@ -7,11 +7,8 @@
 #include <vector>
 #include <memory>
 
-
 class Cliente {
-
 public:
-
     Cliente(const std::string& nome, const std::string& nif, const std::string& password);
 
     const std::string& getNome() const;
@@ -25,15 +22,12 @@ public:
     size_t numContasOrdem() const;
     void listarContas();
 
-
     Gerenciamento& getGerenciamento();
     void atualizarGerenciamento();
 
     void mostrarInfo() const;
 
-
 private:
-
     std::string nome;
     std::string nif;
     std::string password;
@@ -43,6 +37,6 @@ private:
     Gerenciamento gerenciamento;
 
     std::string gerarNumeroConta() const;
-}
+};
 
-#endif //CLIENTE_H
+#endif // CLIENTE_H
