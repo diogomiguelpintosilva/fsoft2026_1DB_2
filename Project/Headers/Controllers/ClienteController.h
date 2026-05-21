@@ -1,18 +1,21 @@
+#ifndef CLIENTECONTROLLER_H
+#define CLIENTECONTROLLER_H
+
 #include "service/ClienteService.h"
 #include <string>
 
 class ClienteController {
 public:
-    ClienteController(ClinteService* clinteService);
+    ClienteController(ClienteService& clienteService);
 
     bool registar(const std::string& nome, const std::string& nif, const std::string& password);
 
     Cliente* autenticar(const std::string& nif, const std::string& password);
 
-    Cliente* buscarPorNIF(const std::string& nif);
+    Cliente* buscarPorNif(const std::string& nif);
 
 private:
-    ClienteService* clienteService;
-}
+    ClienteService& clienteService;
+};
 
-#endif
+#endif // CLIENTECONTROLLER_H
