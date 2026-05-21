@@ -17,6 +17,8 @@ public:
 
     virtual void mostrarInfo() const = 0;
 
+    const std::string& getPin() const;
+
 protected:
     std::string numeroConta;
     double saldo;

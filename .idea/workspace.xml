@@ -6,10 +6,19 @@
   <component name="BackendCodeEditorMiscSettings">
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
   </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="68f93e39-7a62-4456-a50c-c56d087d8a71" name="Changes" comment="Organização do trabalho">
+    <list default="true" id="68f93e39-7a62-4456-a50c-c56d087d8a71" name="Changes" comment="Organização de código">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Headers/Cliente.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Cliente.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Headers/Conta.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Conta.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +84,6 @@
       <recent name="$PROJECT_DIR$/Project/Sources" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="68f93e39-7a62-4456-a50c-c56d087d8a71" name="Changes" comment="" />
@@ -98,6 +100,13 @@
       <workItem from="1779185705364" duration="4990000" />
       <workItem from="1779201635160" duration="2567000" />
       <workItem from="1779204451880" duration="846000" />
+      <workItem from="1779349240435" duration="216000" />
+      <workItem from="1779349897555" duration="952000" />
+      <workItem from="1779351851377" duration="181000" />
+      <workItem from="1779352075085" duration="131000" />
+      <workItem from="1779358634738" duration="684000" />
+      <workItem from="1779361705726" duration="658000" />
+      <workItem from="1779363474332" duration="299000" />
     </task>
     <task id="LOCAL-00001" summary="Organizar os ficheiros">
       <option name="closed" value="true" />
@@ -155,7 +164,31 @@
       <option name="project" value="LOCAL" />
       <updated>1779204674013</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Organização de código">
+      <option name="closed" value="true" />
+      <created>1779349399815</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1779349399815</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Ficheiro Cliente.h">
+      <option name="closed" value="true" />
+      <created>1779350693394</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1779350693394</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Atualizacao do CmakeLists.txt">
+      <option name="closed" value="true" />
+      <created>1779350826649</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1779350826649</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +211,9 @@
     <MESSAGE value="." />
     <MESSAGE value="Criação dos ficheiros: &#10;- ViewUtils.h&#10;- ContaPoupancaService.cpp" />
     <MESSAGE value="Organização do trabalho" />
-    <option name="LAST_COMMIT_MESSAGE" value="Organização do trabalho" />
+    <MESSAGE value="Organização de código" />
+    <MESSAGE value="Ficheiro Cliente.h" />
+    <MESSAGE value="Atualizacao do CmakeLists.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualizacao do CmakeLists.txt" />
   </component>
 </project>
