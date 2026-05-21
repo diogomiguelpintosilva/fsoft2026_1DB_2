@@ -30,12 +30,23 @@ void ViewPrincipal::iniciar(const std::string& nomeGestor) {
 
 void ViewPrincipal::opcaoRegistar() {
     std::string nome, nif, password;
+
     std::cout << "  Nome: ";
     std::getline(std::cin, nome);
-    std::cout << "  NIF: ";
-    std::getline(std::cin, nif);
-    std::cout << "  Password: ";
-    std::getline(std::cin, password);
+
+    do {
+        std::cout << "  NIF (9 digitos numericos): ";
+        std::getline(std::cin, nif);
+        if (!validarNif(nif))
+            std::cout << "  [ERRO] O NIF deve ter exatamente 9 digitos numericos.\n";
+    } while (!validarNif(nif));
+
+    do {
+        std::cout << "  Password (4 digitos numericos): ";
+        std::getline(std::cin, password);
+        if (!validarPassword(password))
+            std::cout << "  [ERRO] A password deve ter exatamente 4 digitos numericos.\n";
+    } while (!validarPassword(password));
 
     clienteController.registar(nome, nif, password);
     pausar();
