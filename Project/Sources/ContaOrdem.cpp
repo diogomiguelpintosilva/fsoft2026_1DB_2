@@ -70,6 +70,12 @@ void ContaOrdem::adicionarContaPoupanca(const std::string& pin) {
     std::cout << " Numero Conta: " << numPoupanca << " \n";
 }
 
+void ContaOrdem::adicionarContaPoupancaCarregada(const std::string& numero, const std::string& pin, double saldo) {
+	auto cp = std::make_shared<ContaPoupanca>(numero, pin);
+	cp->setSaldo(saldo);
+	contasPoupanca.push_back(cp);
+}
+
 ContaPoupanca* ContaOrdem::getContaPoupanca(size_t indice) {
     if (indice < contasPoupanca.size())
         return contasPoupanca[indice].get();
