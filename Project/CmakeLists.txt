@@ -74,4 +74,7 @@ add_executable(fsoft2026_1DB_2
 
         Headers/Views/ViewGestor.h
         Sources/Views/ViewGestor.cpp
+
+        Headers/Persistencia.h
+        Sources/Persistencia.h
 )
