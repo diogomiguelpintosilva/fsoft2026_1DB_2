@@ -6,11 +6,17 @@
   <component name="BackendCodeEditorMiscSettings">
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
   </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="68f93e39-7a62-4456-a50c-c56d087d8a71" name="Changes" comment="Organização do trabalho">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="68f93e39-7a62-4456-a50c-c56d087d8a71" name="Changes" comment="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +104,7 @@
       <workItem from="1779185705364" duration="4990000" />
       <workItem from="1779201635160" duration="2567000" />
       <workItem from="1779204451880" duration="846000" />
+      <workItem from="1779736110133" duration="1535000" />
     </task>
     <task id="LOCAL-00001" summary="Organizar os ficheiros">
       <option name="closed" value="true" />
@@ -155,11 +162,88 @@
       <option name="project" value="LOCAL" />
       <updated>1779204674013</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h">
+      <option name="closed" value="true" />
+      <created>1779351635925</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1779351635925</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h">
+      <option name="closed" value="true" />
+      <created>1779351769191</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1779351769191</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h">
+      <option name="closed" value="true" />
+      <created>1779364102649</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1779364102651</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h">
+      <option name="closed" value="true" />
+      <created>1779737545720</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1779737545720</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h">
+      <option name="closed" value="true" />
+      <created>1779737550643</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1779737550643</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h">
+      <option name="closed" value="true" />
+      <created>1779737554036</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1779737554036</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h">
+      <option name="closed" value="true" />
+      <created>1779737557200</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1779737557200</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h">
+      <option name="closed" value="true" />
+      <created>1779737560207</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1779737560207</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h">
+      <option name="closed" value="true" />
+      <created>1779737563231</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1779737563231</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -178,6 +262,7 @@
     <MESSAGE value="." />
     <MESSAGE value="Criação dos ficheiros: &#10;- ViewUtils.h&#10;- ContaPoupancaService.cpp" />
     <MESSAGE value="Organização do trabalho" />
-    <option name="LAST_COMMIT_MESSAGE" value="Organização do trabalho" />
+    <MESSAGE value="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gerenciamento.cpp&#10;Gerenciamento.h&#10;GerenciamentoService.h" />
   </component>
 </project>
