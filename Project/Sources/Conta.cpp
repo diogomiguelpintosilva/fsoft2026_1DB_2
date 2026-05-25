@@ -6,7 +6,7 @@
 Conta::Conta(const std::string& numeroConta, const std::string& pin)
     : numeroConta(numeroConta), pin(pin), saldo(0) {}
 
-
+const std::string& Conta::getPin() const {return pin; }
 const std::string& Conta::getNumeroConta() const {
 
     return numeroConta;
