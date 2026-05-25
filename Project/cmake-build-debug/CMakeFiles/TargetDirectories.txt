@@ -1,0 +1,3 @@
+/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DB_2.dir
+/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
