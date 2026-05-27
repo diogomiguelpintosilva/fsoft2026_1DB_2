@@ -1,0 +1,64 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"BackendCodeEditorMiscSettings\">\n    <option name=\"/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue\" value=\"true\" type=\"bool\" />\n  </component>\n  <component name=\"CMakeSettings\">\n    <configurations />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"68f93e39-7a62-4456-a50c-c56d087d8a71\" name=\"Changes\" comment=\"Organização do trabalho\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Project/Headers/Controllers/ClienteController.h\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Project/Headers/Controllers/ClienteController.h\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Project/Headers/Views/ViewCliente.h\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Project/Headers/Views/ViewCliente.h\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Project/Sources/Views/ViewCliente.cpp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Project/Sources/Views/ViewCliente.cpp\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ClangdSettings\">\n    <option name=\"formatViaClangd\" value=\"false\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"PUSH_TAGS\">\n      <GitPushTagMode>\n        <option name=\"argument\" value=\"--follow-tags\" />\n        <option name=\"title\" value=\"Current Branch\" />\n      </GitPushTagMode>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;diogomiguelpintosilva&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/diogomiguelpintosilva/fsoft2026_1DB_2.git&quot;,\n    &quot;accountId&quot;: &quot;2b86ea12-e1b2-4f95-a7db-26cf74efcb72&quot;\n  }\n}</component>\n  <component name=\"MacroExpansionManager\">\n    <option name=\"directoryName\" value=\"GEHKNh0p\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 6\n}</component>\n  <component name=\"ProjectId\" id=\"3Du3cNKAFrqICccuhrmuLEuXioJ\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\n    \"RunOnceActivity.RadMigrateCodeStyle\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.cidr.known.project.marker\": \"true\",\n    \"RunOnceActivity.git.unshallow\": \"true\",\n    \"RunOnceActivity.readMode.enableVisualFormatting\": \"true\",\n    \"RunOnceActivity.typescript.service.memoryLimit.init\": \"true\",\n    \"cf.first.check.clang-format\": \"false\",\n    \"cidr.known.project.marker\": \"true\",\n    \"git-widget-placeholder\": \"main\",\n    \"last_opened_file_path\": \"/home/diogosilva/CLionProjects/Trabalho de Sistema Bancário\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"org.rust.first.attach.projects\": \"true\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/Project/Headers\" />\n      <recent name=\"$PROJECT_DIR$/Project/Sources\" />\n    </key>\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"68f93e39-7a62-4456-a50c-c56d087d8a71\" name=\"Changes\" comment=\"\" />\n      <created>1779118205826</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1779118205826</updated>\n      <workItem from=\"1779118206984\" duration=\"815000\" />\n      <workItem from=\"1779119035505\" duration=\"1383000\" />\n      <workItem from=\"1779120434750\" duration=\"124000\" />\n      <workItem from=\"1779121314951\" duration=\"217000\" />\n      <workItem from=\"1779121552258\" duration=\"41000\" />\n      <workItem from=\"1779121636711\" duration=\"150000\" />\n      <workItem from=\"1779185705364\" duration=\"4990000\" />\n      <workItem from=\"1779201635160\" duration=\"2567000\" />\n      <workItem from=\"1779204451880\" duration=\"846000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Organizar os ficheiros\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1779119093010</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1779119093010</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Organizar os ficheiros\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1779119100615</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1779119100615</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Criação dos ficheiros da View, Controller e Service. Para nos orientarmos e organizarmos\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1779120276349</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1779120276349</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Criação dos ficheiros da View, Controller e Service. Para nos orientarmos e organizarmos\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1779120520969</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1779120520969</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\".\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1779121684291</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1779121684292</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Criação dos ficheiros: &#10;- ViewUtils.h&#10;- ContaPoupancaService.cpp\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1779204170945</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1779204170945</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"Organização do trabalho\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1779204674013</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1779204674013</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"8\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Organizar os ficheiros\" />\n    <MESSAGE value=\"Criação dos ficheiros da View, Controller e Service. Para nos orientarmos e organizarmos\" />\n    <MESSAGE value=\".\" />\n    <MESSAGE value=\"Criação dos ficheiros: &#10;- ViewUtils.h&#10;- ContaPoupancaService.cpp\" />\n    <MESSAGE value=\"Organização do trabalho\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Organização do trabalho\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 3d5a3f8f6c7adadff74a757c6a65a61c05722a7e)
++++ b/.idea/workspace.xml	(date 1779349420540)
+@@ -12,9 +12,6 @@
+   <component name="ChangeListManager">
+     <list default="true" id="68f93e39-7a62-4456-a50c-c56d087d8a71" name="Changes" comment="Organização do trabalho">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Project/Headers/Controllers/ClienteController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Controllers/ClienteController.h" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Project/Headers/Views/ViewCliente.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Headers/Views/ViewCliente.h" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Project/Sources/Views/ViewCliente.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Sources/Views/ViewCliente.cpp" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -42,7 +39,7 @@
+   <component name="GithubPullRequestsUISettings">{
+   &quot;selectedUrlAndAccountId&quot;: {
+     &quot;url&quot;: &quot;https://github.com/diogomiguelpintosilva/fsoft2026_1DB_2.git&quot;,
+-    &quot;accountId&quot;: &quot;2b86ea12-e1b2-4f95-a7db-26cf74efcb72&quot;
++    &quot;accountId&quot;: &quot;09751d8a-1b99-4d12-acc8-334b1d566ad6&quot;
+   }
+ }</component>
+   <component name="MacroExpansionManager">
+@@ -69,6 +66,8 @@
+     "cidr.known.project.marker": "true",
+     "git-widget-placeholder": "main",
+     "last_opened_file_path": "/home/diogosilva/CLionProjects/Trabalho de Sistema Bancário",
++    "node.js.detected.package.eslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
+     "node.js.selected.package.tslint": "(autodetect)",
+     "nodejs_package_manager_path": "npm",
+     "org.rust.first.attach.projects": "true",
+@@ -97,6 +96,8 @@
+       <workItem from="1779185705364" duration="4990000" />
+       <workItem from="1779201635160" duration="2567000" />
+       <workItem from="1779204451880" duration="846000" />
++      <workItem from="1779265411092" duration="113000" />
++      <workItem from="1779349000302" duration="419000" />
+     </task>
+     <task id="LOCAL-00001" summary="Organizar os ficheiros">
+       <option name="closed" value="true" />
+@@ -154,7 +155,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1779204674013</updated>
+     </task>
+-    <option name="localTasksCounter" value="8" />
++    <task id="LOCAL-00008" summary="Organização do trabalho">
++      <option name="closed" value="true" />
++      <created>1779216683041</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1779216683041</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
