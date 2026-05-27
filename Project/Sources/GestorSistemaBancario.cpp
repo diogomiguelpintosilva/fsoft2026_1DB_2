@@ -30,6 +30,11 @@ Cliente* GestorSistemaBancario::autenticarCliente(const std::string& nif,
     return nullptr;
 }
 
+Cliente* GestorSistemaBancario::adicionarClienteCarregado(const std::string& nome, const std::string& nif, const std::string& password) {
+    clientes.push_back(std::make_shared<Cliente>(nome, nif, password));
+    return clientes.back().get();
+}
+
 Cliente* GestorSistemaBancario::buscarClientePorNif(const std::string& nif) {
     for (auto& c : clientes) {
         if (c->getNif() == nif)

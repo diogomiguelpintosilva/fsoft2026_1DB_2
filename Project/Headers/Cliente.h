@@ -27,6 +27,12 @@ public:
 
     void mostrarInfo() const;
 
+
+    const std::string& getPassword() const;
+    ContaOrdem* getContaOrdemPorIndice(size_t i);
+    ContaOrdem* adicionarContaOrdemCarregada(const std::string& numero, const std::string& pin, double saldo);
+
+
 private:
     std::string nome;
     std::string nif;

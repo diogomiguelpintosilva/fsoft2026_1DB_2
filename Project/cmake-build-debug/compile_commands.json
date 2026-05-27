@@ -1,0 +1,134 @@
+[
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/main.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/main.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/main.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/main.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/GestorSistemaBancario.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/GestorSistemaBancario.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/GestorSistemaBancario.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/GestorSistemaBancario.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/Conta.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Conta.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Conta.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/Conta.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/ContaOrdem.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/ContaOrdem.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/ContaOrdem.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/ContaOrdem.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/Cliente.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Cliente.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Cliente.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/Cliente.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/ContaPoupanca.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/ContaPoupanca.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/ContaPoupanca.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/ContaPoupanca.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/TipoTransacao.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/TipoTransacao.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/TipoTransacao.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/TipoTransacao.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/Transacoes.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Transacoes.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Transacoes.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/Transacoes.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/Gerenciamento.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Gerenciamento.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Gerenciamento.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/Gerenciamento.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/Services/ClienteService.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Services/ClienteService.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Services/ClienteService.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/Services/ClienteService.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/Services/ContaOrdemService.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Services/ContaOrdemService.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Services/ContaOrdemService.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/Services/ContaOrdemService.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/Services/ContaPoupancaService.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Services/ContaPoupancaService.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Services/ContaPoupancaService.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/Services/ContaPoupancaService.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/Services/GerenciamentoService.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Services/GerenciamentoService.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Services/GerenciamentoService.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/Services/GerenciamentoService.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/Controllers/ClienteController.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Controllers/ClienteController.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Controllers/ClienteController.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/Controllers/ClienteController.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/Controllers/ContaOrdemController.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Controllers/ContaOrdemController.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Controllers/ContaOrdemController.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/Controllers/ContaOrdemController.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/Controllers/ContaPoupancaController.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Controllers/ContaPoupancaController.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Controllers/ContaPoupancaController.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/Controllers/ContaPoupancaController.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/Controllers/GerenciamentoController.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Controllers/GerenciamentoController.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Controllers/GerenciamentoController.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/Controllers/GerenciamentoController.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/Views/ViewPrincipal.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Views/ViewPrincipal.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Views/ViewPrincipal.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/Views/ViewPrincipal.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/Views/ViewCliente.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Views/ViewCliente.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Views/ViewCliente.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/Views/ViewCliente.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/Views/ViewContaOrdem.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Views/ViewContaOrdem.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Views/ViewContaOrdem.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/Views/ViewContaOrdem.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/Views/ViewContaPoupanca.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Views/ViewContaPoupanca.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Views/ViewContaPoupanca.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/Views/ViewContaPoupanca.cpp.o"
+},
+{
+  "directory": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Services -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Controllers -I/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Headers/Views -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/fsoft2026_1DB_2.dir/Sources/Views/ViewGestor.cpp.o -c /home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Views/ViewGestor.cpp",
+  "file": "/home/diogosilva/CLionProjects/fsoft2026_1DB_2/Project/Sources/Views/ViewGestor.cpp",
+  "output": "CMakeFiles/fsoft2026_1DB_2.dir/Sources/Views/ViewGestor.cpp.o"
+}
+]
