@@ -4,9 +4,11 @@
 
 ViewCliente::ViewCliente(ClienteController& clienteController,
                          ContaOrdemController& contaOrdemController,
+                         ContaPoupancaController& contaPoupancaController,
                          GerenciamentoController& gerenciamentoController)
     : clienteController(clienteController),
       contaOrdemController(contaOrdemController),
+      contaPoupancaController(contaPoupancaController),
       gerenciamentoController(gerenciamentoController) {}
 
 void ViewCliente::mostrarMenu(Cliente* cliente) {
@@ -14,7 +16,7 @@ void ViewCliente::mostrarMenu(Cliente* cliente) {
     do {
         cabecalho("Menu do cliente - " + cliente->getNome());
         std::cout << "  1. Criar Conta Corrente\n";
-        std::cout << "  2. Aceder Conta Corrente (em breve)\n";
+        std::cout << "  2. Aceder Conta Corrente\n";
         std::cout << "  3. Ver gerenciamento financeiro\n";
         std::cout << "  4. Listar todas as contas\n";
         std::cout << "  0. Terminar sessao\n";
@@ -42,8 +44,30 @@ void ViewCliente::opcaoCriarConta(Cliente* cliente) {
 }
 
 void ViewCliente::opcaoAcederConta(Cliente* cliente) {
-    std::cout << "  Funcionalidade disponivel em breve.\n";
-    pausar();
+    if (cliente->numContasOrdem() == 0) {
+        std::cout << "  Nao tens contas criadas.\n";
+        pausar();
+        return;
+    }
+
+    cabecalho("Aceder Conta Corrente");
+    cliente->listarContas();
+
+    std::string numeroConta, pin;
+    std::cout << "\n  Numero da conta: ";
+    std::getline(std::cin, numeroConta);
+    std::cout << "  PIN: ";
+    std::getline(std::cin, pin);
+
+    ContaOrdem* conta = cliente->getContaOrdem(numeroConta, pin);
+    if (conta == nullptr) {
+        std::cout << "  [ERRO] Numero de conta ou PIN incorretos.\n";
+        pausar();
+        return;
+    }
+
+    ViewContaOrdem viewContaOrdem(contaOrdemController, contaPoupancaController);
+    viewContaOrdem.mostrarMenu(conta);
 }
 
 void ViewCliente::opcaoGerenciamento(Cliente* cliente) {

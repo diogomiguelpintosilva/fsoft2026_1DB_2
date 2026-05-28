@@ -51,8 +51,14 @@ bool ContaOrdem::transferir(ContaOrdem& contaDestino, double valor) {
     setSaldo(getSaldo() - valor);
     contaDestino.setSaldo(contaDestino.getSaldo() + valor);
 
-    registarTransacao(TipoTransacao::TipoOperacao::TRANSFERIR, -valor, "Transf. saida -> " + contaDestino.getNumeroConta());
-    contaDestino.registarTransacao(TipoTransacao::TipoOperacao::TRANSFERIR, valor, "Transf. entrada <- " + this->getNumeroConta());
+    std::ostringstream descSaida, descEntrada;
+    descSaida   << "Transf. saida -> "   << contaDestino.getNumeroConta()
+                << " - " << std::fixed << std::setprecision(2) << valor << "EUR";
+    descEntrada << "Transf. entrada <- " << this->getNumeroConta()
+                << " - " << std::fixed << std::setprecision(2) << valor << "EUR";
+
+    registarTransacao(TipoTransacao::TipoOperacao::TRANSFERIR, -valor, descSaida.str());
+    contaDestino.registarTransacao(TipoTransacao::TipoOperacao::TRANSFERIR, valor, descEntrada.str());
 
     std::cout << " Transferencia de " << std::fixed << std::setprecision(2) << valor << " EUR para conta " << contaDestino.getNumeroConta() << " efetuada com sucesso. \n";
     std::cout << "Novo saldo: " << getSaldo() << " EUR \n";
@@ -110,11 +116,21 @@ const std::vector<std::pair<std::string, double>> ContaOrdem::getRegistosHistori
 void ContaOrdem::mostrarHistorico() const {
     std::cout << "\n --- Historico de Transacoes (" << getNumeroConta() << ") ---\n";
     if (transacoes.empty()) {
-        std::cout << "Sem transacoes registadas.\n";
+        std::cout << "  Sem transacoes registadas.\n";
         return;
     }
+    std::cout << std::left
+              << std::setw(12) << "Data"
+              << std::setw(45) << "Descricao"
+              << "Valor (EUR)" << "\n";
+    std::cout << std::string(68, '-') << "\n";
     for (const auto& t : transacoes) {
-        t.mostrarHistorico();
+        for (const auto& r : t.getRegistars()) {
+            std::cout << std::left
+                      << std::setw(12) << r.data
+                      << std::setw(45) << r.descricao
+                      << std::fixed << std::setprecision(2) << r.valor << "\n";
+        }
     }
 }
 

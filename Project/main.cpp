@@ -29,7 +29,7 @@ int main() {
     ContaPoupancaController contaPoupancaController(contaPoupancaService);
     GerenciamentoController gerenciamentoController(gerenciamentoService);
 
-    ViewCliente   viewCliente(clienteController, contaOrdemController, gerenciamentoController);
+    ViewCliente   viewCliente(clienteController, contaOrdemController, contaPoupancaController, gerenciamentoController);
     ViewGestor    viewGestor(gestor);
     ViewPrincipal viewPrincipal(clienteController, viewCliente, viewGestor);
 
@@ -42,3 +42,4 @@ int main() {
 
     return 0;
 }
+

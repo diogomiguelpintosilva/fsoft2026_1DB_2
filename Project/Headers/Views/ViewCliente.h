@@ -3,12 +3,15 @@
 
 #include "ClienteController.h"
 #include "ContaOrdemController.h"
+#include "ContaPoupancaController.h"
 #include "GerenciamentoController.h"
+#include "ViewContaOrdem.h"
 
 class ViewCliente {
 public:
     ViewCliente(ClienteController& clienteController,
                 ContaOrdemController& contaOrdemController,
+                ContaPoupancaController& contaPoupancaController,
                 GerenciamentoController& gerenciamentoController);
 
     void mostrarMenu(Cliente* cliente);
@@ -16,6 +19,7 @@ public:
 private:
     ClienteController& clienteController;
     ContaOrdemController& contaOrdemController;
+    ContaPoupancaController& contaPoupancaController;
     GerenciamentoController& gerenciamentoController;
 
     void opcaoCriarConta(Cliente* cliente);

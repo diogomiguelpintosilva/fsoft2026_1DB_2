@@ -59,11 +59,11 @@ void ViewContaOrdem::opcaoTransferir(ContaOrdem*conta) {
     std::string nifDestino, numeroContaDestino;
     double valor;
 
-    std::cout << "NIF do titular da conta destino";
+    std::cout << "NIF do titular da conta destino:";
     std::getline(std::cin, nifDestino);
     std::cout << "Numero da conta destino: ";
     std::getline(std::cin, numeroContaDestino);
-    std::cout <<"Valor a transferir: ";
+    std::cout <<"\n Valor a transferir: ";
     std::cin>>valor;
     limparInput();
 
@@ -93,8 +93,8 @@ void ViewContaOrdem::opcaoContasPoupanca(ContaOrdem* conta) {
         conta->listarContasPoupanca();
 
         std::cout << "\n 1. Criar nova Conta Poupanca.\n";
-        std::cout << "Aceder a uma Conta Poupanca.\n";
-        std::cout << "0. Voltar\n";
+        std::cout << " 2. Aceder a uma Conta Poupanca.\n";
+        std::cout << " 0. Voltar\n";
         std::cout << "Opcao: ";
         std::cin >> opcao;
         limparInput();
