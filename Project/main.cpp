@@ -1,5 +1,3 @@
-#include "Persistencia.h"
-
 #include "GestorSistemaBancario.h"
 
 #include "ClienteService.h"
@@ -34,12 +32,6 @@ int main() {
     ViewGestor    viewGestor(gestor);
     ViewPrincipal viewPrincipal(clienteController, viewCliente, viewGestor);
 
-    const std::string FICHEIRO =  "banco.dat";
-    Persistencia::carregar (gestor, FICHEIRO);
-
-    viewPrincipal.iniciar(gestor.getNome());
-
-    Persistencia::guardar(gestor, FICHEIRO);
 
     return 0;
 }
