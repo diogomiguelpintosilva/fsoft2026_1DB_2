@@ -2,6 +2,7 @@
 #define CONTAPOUPANCA_H
 
 #include "Conta.h"
+#include <string>
 
 class ContaPoupanca : public Conta {
 
@@ -10,9 +11,8 @@ public:
     ContaPoupanca(const std::string& numConta, const std::string& pin);
 
     bool depositar(double valor);
-    void consultarSaldo() const;
+    std::string mostrarInfo() const;
 
-    void mostrarInfo() const;
 };
 
 #endif //CONTAPOUPANCA_H

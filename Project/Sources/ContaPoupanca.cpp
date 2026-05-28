@@ -1,5 +1,5 @@
 #include "ContaPoupanca.h"
-#include <iostream>
+#include <sstream>
 #include <iomanip>
 
 ContaPoupanca::ContaPoupanca(const std::string& numConta, const std::string& pin)
@@ -7,19 +7,14 @@ ContaPoupanca::ContaPoupanca(const std::string& numConta, const std::string& pin
 
 bool ContaPoupanca::depositar(double valor) {
     if (valor <= 0) {
-        std::cout << "[ERRO] Valor invalido. Deve ser maior que zero! \n";
         return false;
+        setSaldo(getSaldo() + valor);
+        return true;
     }
-    setSaldo(getSaldo() + valor);
-    std::cout << "Deposito de " << std::fixed << std::setprecision(2) << valor << " EUR efetuado com sucesso. \n";
-    std::cout << "Novo saldo: " << getSaldo() << " EUR \n";
-    return true;
-}
 
-void ContaPoupanca::consultarSaldo() const {
-    std::cout << "Saldo atual (Poupanca " << getNumeroConta() << "): " << std::fixed << std::setprecision(2) << getSaldo() << " EUR \n";
-}
+    std::string ContaPoupanca::mostrarInfo() const {
 
-void ContaPoupanca::mostrarInfo() const {
-    std::cout << "[Conta Poupanca] Numero: " << getNumeroConta() << " | Saldo: " << std::fixed << std::setprecision(2) << getSaldo() << " EUR \n";
-}
+        std::ostringstream oss;
+        oss<<"[ContaPoupanca] Numero: " << getNumeroConta() << " | Saldo: " << std::fixed << std::setprecision(2) << getSaldo() << " EUR";
+        return oss.str();
+    }
