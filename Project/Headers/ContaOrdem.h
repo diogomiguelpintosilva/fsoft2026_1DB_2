@@ -14,22 +14,18 @@ public:
     bool depositar(double valor);
     bool levantar(double valor);
     bool transferir(ContaOrdem& contaDestino, double valor);
-    void consultarSaldo() const;
 
     void adicionarContaPoupanca(const std::string& pin);
     ContaPoupanca* getContaPoupanca(size_t indice = 0);
     size_t numContasPoupanca() const;
-    void listarContasPoupanca() const;
 
-    void mostrarInfo() const;
+    std::string mostrarInfo() const;
 
-    const std::vector<std::pair<std::string, double>> getRegistosHistorico() const;
-    void mostrarHistorico() const;
-
+    const std::vector<std::pair<std::string, double>> getRegistosHistorico() const; std::vector<Transacoes::Registo> getHistoricoCompleto() const;
 
     void adicionarContaPoupancaCarregada(const std::string& numero, const std::string& pin, double saldo);
     void adicionarHistoricoCarregado(const std::string& data, const std::string& descricao, double valor);
-    std::vector<Transacoes::Registo> getHistoricoCompleto() const;
+
 
 private:
     std::vector<std::shared_ptr<ContaPoupanca>> contasPoupanca;
