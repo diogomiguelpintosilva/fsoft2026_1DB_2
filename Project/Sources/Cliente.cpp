@@ -7,9 +7,9 @@
 Cliente::Cliente(const std::string& nome, const std::string& nif, const std::string& password)
     : nome(nome), nif(nif), password(password) {}
 
-const std::string& Cliente::getNome() const { return nome; }
-const std::string& Cliente::getNif()  const { return nif; }
-const std::string& Cliente::getPin()  const { return pin; }
+const std::string& Cliente::getNome()     const { return nome; }
+const std::string& Cliente::getNif()      const { return nif; }
+const std::string& Cliente::getPassword() const { return password; }
 
 bool Cliente::verificarPassword(const std::string& pw) const {
     return password == pw;

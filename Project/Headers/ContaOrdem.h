@@ -27,7 +27,7 @@ public:
     void mostrarHistorico() const;
 
 
-    void adicionarContapoupancaCarregada(const std::string& numero, const std::string& pin, double valor);
+    void adicionarContaPoupancaCarregada(const std::string& numero, const std::string& pin, double saldo);
 
 
 private:
