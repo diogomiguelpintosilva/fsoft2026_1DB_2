@@ -13,24 +13,21 @@ public:
 
     const std::string& getNome() const;
     const std::string& getNif() const;
+    const std::string& getPassword() const;
 
     bool verificarPassword(const std::string& password) const;
 
     ContaOrdem* criarContaOrdem(const std::string& pin);
     ContaOrdem* getContaOrdem(const std::string& numeroConta, const std::string& pin);
     ContaOrdem* getContaOrdemPorNumero(const std::string& numeroConta);
+    ContaOrdem* getContaOrdemPorIndice(size_t i);
     size_t numContasOrdem() const;
-    void listarContas();
+    ContaOrdem* adicionarContaOrdemCarregada(const std::string&numero, const std::string& pin, double saldo);
 
     Gerenciamento& getGerenciamento();
     void atualizarGerenciamento();
 
-    void mostrarInfo() const;
-
-
-    const std::string& getPassword() const;
-    ContaOrdem* getContaOrdemPorIndice(size_t i);
-    ContaOrdem* adicionarContaOrdemCarregada(const std::string& numero, const std::string& pin, double saldo);
+    std::string mostrarInfo() const;
 
 
 private:
