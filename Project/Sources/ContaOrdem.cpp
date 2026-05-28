@@ -113,9 +113,30 @@ const std::vector<std::pair<std::string, double>> ContaOrdem::getRegistosHistori
     return resultado;
 }
 
+void ContaOrdem::adicionarHistoricoCarregado(const std::string& data,
+                                              const std::string& descricao,
+                                              double valor) {
+    Transacoes::Registo r;
+    r.data      = data;
+    r.descricao = descricao;
+    r.valor     = valor;
+    historicoExtra.push_back(r);
+}
+
+std::vector<Transacoes::Registo> ContaOrdem::getHistoricoCompleto() const {
+    std::vector<Transacoes::Registo> resultado = historicoExtra;
+    for (const auto& t : transacoes) {
+        for (const auto& r : t.getRegistars()) {
+            resultado.push_back(r);
+        }
+    }
+    return resultado;
+}
+
 void ContaOrdem::mostrarHistorico() const {
     std::cout << "\n --- Historico de Transacoes (" << getNumeroConta() << ") ---\n";
-    if (transacoes.empty()) {
+    auto historico = getHistoricoCompleto();
+    if (historico.empty()) {
         std::cout << "  Sem transacoes registadas.\n";
         return;
     }
@@ -124,13 +145,11 @@ void ContaOrdem::mostrarHistorico() const {
               << std::setw(45) << "Descricao"
               << "Valor (EUR)" << "\n";
     std::cout << std::string(68, '-') << "\n";
-    for (const auto& t : transacoes) {
-        for (const auto& r : t.getRegistars()) {
-            std::cout << std::left
-                      << std::setw(12) << r.data
-                      << std::setw(45) << r.descricao
-                      << std::fixed << std::setprecision(2) << r.valor << "\n";
-        }
+    for (const auto& r : historico) {
+        std::cout << std::left
+                  << std::setw(12) << r.data
+                  << std::setw(45) << r.descricao
+                  << std::fixed << std::setprecision(2) << r.valor << "\n";
     }
 }
 

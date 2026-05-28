@@ -20,6 +20,10 @@ void Persistencia::guardar(const GestorSistemaBancario& gestor, const std::strin
             ContaOrdem* co = c->getContaOrdemPorIndice(i);
             f << "CONTA_ORDEM|" << co->getNumeroConta() << "|" << co->getPin() << "|" << co->getSaldo() << "\n";
 
+            for (const auto& r : co->getHistoricoCompleto()) {
+                f << "HISTORICO|" << r.data << "|" << r.descricao << "|" << r.valor << "\n";
+            }
+
             for (size_t j = 0; j < co->numContasPoupanca(); ++j) {
                 ContaPoupanca* cp = co->getContaPoupanca(j);
                 f << "POUPANCA|" << cp->getNumeroConta() << "|" << cp->getPin() << "|" << cp->getSaldo() << "\n";
@@ -59,6 +63,13 @@ void Persistencia::carregar(GestorSistemaBancario& gestor, const std::string& fi
             std::getline(ss, pin,      '|');
             std::getline(ss, saldoStr, '|');
             contaAtual = clienteAtual->adicionarContaOrdemCarregada(numero, pin, std::stod(saldoStr));
+
+        } else if (tipo == "HISTORICO" && contaAtual) {
+            std::string data, descricao, valorStr;
+            std::getline(ss, data,      '|');
+            std::getline(ss, descricao, '|');
+            std::getline(ss, valorStr,  '|');
+            contaAtual->adicionarHistoricoCarregado(data, descricao, std::stod(valorStr));
 
         } else if (tipo == "POUPANCA" && contaAtual) {
             std::string numero, pin, saldoStr;

@@ -28,11 +28,13 @@ public:
 
 
     void adicionarContaPoupancaCarregada(const std::string& numero, const std::string& pin, double saldo);
-
+    void adicionarHistoricoCarregado(const std::string& data, const std::string& descricao, double valor);
+    std::vector<Transacoes::Registo> getHistoricoCompleto() const;
 
 private:
     std::vector<std::shared_ptr<ContaPoupanca>> contasPoupanca;
     std::vector<TipoTransacao> transacoes;
+    std::vector<Transacoes::Registo> historicoExtra;
 
     void registarTransacao(TipoTransacao::TipoOperacao op, double valor, const std::string& descricao);
     std::string gerarNumeroPoupanca() const;
