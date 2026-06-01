@@ -18,16 +18,13 @@ public:
     Cliente* buscarClientePorNif(const std::string& nif);
     bool existeNif(const std::string& nif) const;
 
-    void listarClientes() const;
     const std::vector<std::shared_ptr<Cliente>>& getClientes() const;
-
 
     Cliente* adicionarClienteCarregado(const std::string& nome, const std::string& nif, const std::string& password);
 
 
 private:
     std::string nome;
-
 
     std::vector<std::shared_ptr<Cliente>> clientes;
 };
