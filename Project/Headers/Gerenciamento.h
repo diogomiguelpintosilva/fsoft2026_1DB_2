@@ -15,7 +15,7 @@ public:
     double getGanhos() const;
     double getLucros() const;
 
-    void mostrarResumo() const;
+    std::string mostrarResumo() const;
 
 private:
     double despesas;
