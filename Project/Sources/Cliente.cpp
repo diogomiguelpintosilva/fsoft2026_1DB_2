@@ -18,8 +18,6 @@ bool Cliente::verificarPassword(const std::string& pw) const {
 ContaOrdem* Cliente::criarContaOrdem(const std::string& pin) {
     std::string numero = gerarNumeroConta();
     contasOrdem.push_back(std::make_shared<ContaOrdem>(numero, pin));
-    std::cout << "  Conta corrente criada com sucesso.\n";
-    std::cout << "  Numero da conta: " << numero << "\n";
     return contasOrdem.back().get();
 }
 
@@ -56,16 +54,6 @@ size_t Cliente::numContasOrdem() const {
     return contasOrdem.size();
 }
 
-void Cliente::listarContas() {
-    if (contasOrdem.empty()) {
-        std::cout << "  Sem contas registadas.\n";
-        return;
-    }
-    for (size_t i = 0; i < contasOrdem.size(); ++i) {
-        std::cout << "  [" << i + 1 << "] ";
-        contasOrdem[i]->mostrarInfo();
-    }
-}
 
 Gerenciamento& Cliente::getGerenciamento() {
     return gerenciamento;
@@ -77,9 +65,10 @@ void Cliente::atualizarGerenciamento() {
     }
 }
 
-void Cliente::mostrarInfo() const {
-    std::cout << "  Cliente: " << nome << " | NIF: " << nif << "\n";
-    std::cout << "  Contas registadas: " << contasOrdem.size() << "\n";
+std:: string Cliente::mostrarInfo() const {
+    std::ostringstream oss;
+    oss << "Cliente: " << nome << " | NIF: " << nif << " | Contas: " << contasOrdem.size() << "\n";
+    return oss.str();
 }
 
 std::string Cliente::gerarNumeroConta() const {
