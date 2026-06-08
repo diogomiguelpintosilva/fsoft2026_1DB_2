@@ -1,4 +1,4 @@
-#include "ViewPrincipal.h"
+    #include "ViewPrincipal.h"
 #include "ViewUtils.h"
 #include <iostream>
 
@@ -48,7 +48,13 @@ void ViewPrincipal::opcaoRegistar() {
             std::cout << "  [ERRO] A password deve ter exatamente 4 digitos numericos.\n";
     } while (!validarPassword(password));
 
-    clienteController.registar(nome, nif, password);
+    if (clienteController.registar(nome, nif, password)) {
+
+        std::cout << " Cliente registado com sucesso.\n";
+    }else {
+
+        std::cout << " [ERRO] Ja existe um cliente com o NIF " << nif << ".\n";
+    }
     pausar();
 }
 
@@ -67,6 +73,7 @@ void ViewPrincipal::opcaoLogin() {
     if (cliente != nullptr) {
         viewCliente.mostrarMenu(cliente);
     } else {
+        std::cout << " [ERRO] NIF ou password incorretos. \n";
         pausar();
     }
 }
