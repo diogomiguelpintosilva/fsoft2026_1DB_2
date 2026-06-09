@@ -24,7 +24,7 @@ class Transacoes {
     const std::vector<Transacoes::Registo> &getHistorico() const;
 
     const std::vector<Registo>& getRegistars() const;
-    void mostrarHistorico() const;
+    std::string mostrarHistorico() const;
 
     virtual void adicionarAoHistorico() = 0;
 

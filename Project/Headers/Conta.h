@@ -15,7 +15,7 @@ public:
 
     void setSaldo(double novoSaldo);
 
-    virtual void mostrarInfo() const = 0;
+    virtual std::string mostrarInfo() const = 0;
 
     const std::string& getPin() const;
 

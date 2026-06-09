@@ -69,6 +69,13 @@ void ViewGestor::opcaoVerContasCliente() {
     }
 
     cabecalho("Contas de " + cliente->getNome());
-    cliente->listarContas();
+    if (cliente->numContasOrdem() == 0) {
+        std::cout << "  Sem contas criadas.\n";
+    } else {
+        for (size_t i = 0; i < cliente->numContasOrdem(); ++i) {
+            ContaOrdem* co = cliente->getContaOrdemPorIndice(i);
+            std::cout << "  [" << (i + 1) << "] " << co->mostrarInfo() << "\n";
+        }
+    }
     pausar();
 }

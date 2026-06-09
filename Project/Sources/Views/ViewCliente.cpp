@@ -39,7 +39,13 @@ void ViewCliente::opcaoCriarConta(Cliente* cliente) {
     std::string pin;
     std::cout << "  Defina um PIN para a nova conta: ";
     std::getline(std::cin, pin);
-    contaOrdemController.criarConta(cliente, pin);
+    ContaOrdem* conta = contaOrdemController.criarConta(cliente, pin);
+    if (conta != nullptr) {
+        std::cout << "  Conta criada com sucesso!\n";
+        std::cout << "  Numero: " << conta->getNumeroConta() << "\n";
+    } else {
+        std::cout << "  [ERRO] Nao foi possivel criar a conta.\n";
+    }
     pausar();
 }
 
@@ -51,7 +57,10 @@ void ViewCliente::opcaoAcederConta(Cliente* cliente) {
     }
 
     cabecalho("Aceder Conta Corrente");
-    cliente->listarContas();
+    for (size_t i = 0; i < cliente->numContasOrdem(); ++i) {
+        ContaOrdem* co = cliente->getContaOrdemPorIndice(i);
+        std::cout << "  [" << (i + 1) << "] " << co->mostrarInfo() << "\n";
+    }
 
     std::string numeroConta, pin;
     std::cout << "\n  Numero da conta: ";
@@ -73,13 +82,20 @@ void ViewCliente::opcaoAcederConta(Cliente* cliente) {
 void ViewCliente::opcaoGerenciamento(Cliente* cliente) {
     Gerenciamento* g = gerenciamentoController.obter(cliente);
     if (g != nullptr) {
-        g->mostrarResumo();
+        std::cout << g->mostrarResumo();
     }
     pausar();
 }
 
 void ViewCliente::opcaoListarContas(Cliente* cliente) {
     cabecalho("Contas de " + cliente->getNome());
-    cliente->listarContas();
+    if (cliente->numContasOrdem() == 0) {
+        std::cout << "  Sem contas criadas.\n";
+    } else {
+        for (size_t i = 0; i < cliente->numContasOrdem(); ++i) {
+            ContaOrdem* co = cliente->getContaOrdemPorIndice(i);
+            std::cout << "  [" << (i + 1) << "] " << co->mostrarInfo() << "\n";
+        }
+    }
     pausar();
 }

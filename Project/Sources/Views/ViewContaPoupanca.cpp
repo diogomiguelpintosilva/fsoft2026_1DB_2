@@ -1,6 +1,7 @@
 #include "ViewContaPoupanca.h"
 #include "ViewUtils.h"
 #include <iostream>
+#include <iomanip>
 
 ViewContaPoupanca::ViewContaPoupanca(ContaPoupancaController& controller)
     : controller(controller) {}
@@ -30,12 +31,18 @@ void ViewContaPoupanca::opcaoDepositar(ContaPoupanca* conta) {
     std::cout << "  Valor a depositar: ";
     std::cin >> valor;
     limparInput();
-    controller.depositar(conta, valor);
+
+    if (controller.depositar(conta, valor)) {
+        std::cout << "  Deposito de " << std::fixed << std::setprecision(2) << valor << " EUR efetuado com sucesso.\n";
+        std::cout << "  Novo saldo: " << std::fixed << std::setprecision(2) << conta->getSaldo() << " EUR\n";
+    } else {
+        std::cout << "  [ERRO] Valor invalido. Deve ser maior que zero!\n";
+    }
     pausar();
 }
 
 void ViewContaPoupanca::opcaoConsultarSaldo(ContaPoupanca* conta) {
-    // A propria ContaPoupanca sabe mostrar o saldo
-    conta->consultarSaldo();
+    std::cout << "\n  Saldo atual (" << conta->getNumeroConta() << "): "
+              << std::fixed << std::setprecision(2) << conta->getSaldo() << " EUR\n";
     pausar();
 }

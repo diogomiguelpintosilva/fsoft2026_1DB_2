@@ -1,6 +1,6 @@
 #include "Transacoes.h"
-#include <iostream>
 #include <iomanip>
+#include <sstream>
 #include <ctime>
 
 Transacoes::Transacoes() {}
@@ -21,22 +21,24 @@ const std::vector<Transacoes::Registo>& Transacoes::getRegistars() const {
     return historico;
 }
 
-void Transacoes::mostrarHistorico() const {
+std::string Transacoes::mostrarHistorico() const {
+    std::ostringstream oss;
     if (historico.empty()) {
-        std::cout << "  Sem registos no historico.\n";
-        return;
+        oss << "  Sem registos no historico.\n";
+        return oss.str();
     }
-    std::cout << std::left
-              << std::setw(12) << "Data"
-              << std::setw(25) << "Descricao"
-              << std::setw(12) << "Valor (EUR)" << "\n";
-    std::cout << std::string(49, '-') << "\n";
+    oss << std::left
+        << std::setw(12) << "Data"
+        << std::setw(25) << "Descricao"
+        << std::setw(12) << "Valor (EUR)" << "\n";
+    oss << std::string(49, '-') << "\n";
     for (const auto& r : historico) {
-        std::cout << std::left
-                  << std::setw(12) << r.data
-                  << std::setw(25) << r.descricao
-                  << std::fixed << std::setprecision(2) << r.valor << "\n";
+        oss << std::left
+            << std::setw(12) << r.data
+            << std::setw(25) << r.descricao
+            << std::fixed << std::setprecision(2) << r.valor << "\n";
     }
+    return oss.str();
 }
 
 std::string Transacoes::dataAtual() {

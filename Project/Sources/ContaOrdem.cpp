@@ -59,9 +59,13 @@ bool ContaOrdem::transferir(ContaOrdem& contaDestino, double valor) {
 void ContaOrdem::adicionarContaPoupanca(const std::string& pin) {
     std::string numPoupanca = gerarNumeroPoupanca();
     contasPoupanca.push_back(std::make_shared<ContaPoupanca>(numPoupanca, pin));
-
 }
 
+void ContaOrdem::adicionarContaPoupancaCarregada(const std::string& numero, const std::string& pin, double saldo) {
+    auto cp = std::make_shared<ContaPoupanca>(numero, pin);
+    cp->setSaldo(saldo);
+    contasPoupanca.push_back(cp);
+}
 
 ContaPoupanca* ContaOrdem::getContaPoupanca(size_t indice) {
     if (indice < contasPoupanca.size())
