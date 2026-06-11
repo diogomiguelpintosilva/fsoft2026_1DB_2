@@ -9,12 +9,11 @@ void Gerenciamento::atualizar(const ContaOrdem& conta) {
     despesas = 0.0;
     ganhos   = 0.0;
 
-    for (const auto& registo : conta.getRegistosHistorico()) {
-        double valor = registo.second;
-        if (valor > 0) {
-            ganhos += valor;
+    for (const auto& registo : conta.getHistoricoCompleto()) {
+        if (registo.valor > 0) {
+            ganhos += registo.valor;
         } else {
-            despesas += (-valor);
+            despesas += (-registo.valor);
         }
     }
     lucros = ganhos - despesas;
