@@ -4,7 +4,6 @@
 #include <string>
 
 
-// Cliente criado com Dados Corretos
 TEST(ClienteTest, ContrutorCorreto) {
 
     Cliente cliente("Tiago", "123456789", "1234");
@@ -14,7 +13,6 @@ TEST(ClienteTest, ContrutorCorreto) {
     EXPECT_EQ("1234", cliente.getPassword());
 }
 
-// Password correta é aceite
 TEST(ClientTest, VerificarPasswordCorreta) {
 
     Cliente cliente("Tiago", "123456789", "1234");
@@ -22,21 +20,18 @@ TEST(ClientTest, VerificarPasswordCorreta) {
     EXPECT_TRUE(cliente.verificarPassword("1234"));
 }
 
-// Password errada é rejeitada
 TEST(ClientTest, VerificarPasswordErrada) {
 
     Cliente cliente("Tiago", "123456789", "1234");
     EXPECT_FALSE(cliente.verificarPassword("9999"));
 }
 
-// Cliente começa sem contas
 TEST(ClienteTest, SemContasNoInicio) {
 
     Cliente cliente("Tiago", "123456789", "1234");
     EXPECT_EQ(0, cliente.numContasOrdem());
 }
 
-// Criar uma Conta Ordem funciona
 TEST(ClienetTest, CriarContaOrdem) {
 
     Cliente cliente("Tiago", "123456789", "1234");
@@ -46,7 +41,6 @@ TEST(ClienetTest, CriarContaOrdem) {
     EXPECT_EQ(1, cliente.numContasOrdem());
 }
 
-// Aceder a conta com PIN correto
 TEST(ClienteTest, GetContaOrdemPinCorreto) {
 
     Cliente cliente("Tiago", "123456789", "1234");
@@ -56,7 +50,6 @@ TEST(ClienteTest, GetContaOrdemPinCorreto) {
     EXPECT_EQ(nullptr, encontrada);
 }
 
-// Aceder a conta com PIN errado falha
 TEST(ClienteTest, GetContaOrdemPinErrado) {
 
     Cliente cliente("Tiago", "123456789", "1234");
@@ -65,7 +58,6 @@ TEST(ClienteTest, GetContaOrdemPinErrado) {
     EXPECT_EQ(nullptr, encontrada);
 }
 
-// Criar várias contas funciona
 TEST(ClienteTest, CriarVariasContas) {
 
     Cliente cliente("Tiago", "123456789", "1234");
