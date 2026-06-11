@@ -3,7 +3,6 @@
 #include <string>
 
 
-// Conta Poupanca criada com saldo zero
 TEST(ContaPoupancaTest, ConstrutorSaldoZero) {
 
     ContaPoupanca cp("P1234001", "5678");
@@ -12,7 +11,6 @@ TEST(ContaPoupancaTest, ConstrutorSaldoZero) {
     EXPECT_DOUBLE_EQ(0.0, cp.getSaldo());
 }
 
-// Depositar valor válido
 TEST(ContaPoupancaTest, DepositarValorValido) {
 
     ContaPoupanca cp("P1234001", "5678");
@@ -22,7 +20,6 @@ TEST(ContaPoupancaTest, DepositarValorValido) {
     EXPECT_DOUBLE_EQ(150.0, cp.getSaldo());
 }
 
-// Depositar zero deve falhar
 TEST(ContaPoupancaTest, DepositarValorZero) {
 
     ContaPoupanca cp("P1234001", "5678");
@@ -32,7 +29,6 @@ TEST(ContaPoupancaTest, DepositarValorZero) {
     EXPECT_DOUBLE_EQ(0.0, cp.getSaldo());
 }
 
-// Depositar valor negativo
 TEST(ContaPoupancaTest, DepositarValorNegativo) {
 
     ContaPoupanca cp("P1234001", "5678");
@@ -42,21 +38,18 @@ TEST(ContaPoupancaTest, DepositarValorNegativo) {
     EXPECT_DOUBLE_EQ(0.0, cp.getSaldo());
 }
 
-// Verificar PIN correto
 TEST(ContaPoupancaTest, VerificarPinCorreto) {
 
     ContaPoupanca cp("P1234001", "5678");
     EXPECT_TRUE(cp.verificarPin("5678"));
 }
 
-// Verificar PIN errado, deve falhar
 TEST(ContaPoupancaTest, VerificarPinErrado) {
 
     ContaPoupanca cp("P1234001", "5678");
     EXPECT_FALSE(cp.verificarPin("0000"));
 }
 
-// mostrarInfo não deve estar vazio e deve conter um numero
 TEST(ContaPoupancaTest, MostrarInfoContemNumero) {
 
     ContaPoupanca cp("P1234001", "5678");
