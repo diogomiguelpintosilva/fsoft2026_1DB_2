@@ -55,7 +55,7 @@ TEST(ClienteTest, GetContaOrdemPinErrado) {
     Cliente cliente("Tiago", "123456789", "1234");
     ContaOrdem* criada = cliente.criarContaOrdem("4321");
 
-    ContaOrdem* encontrada = cliente.getContaOrdem(criada -> getNumeroConta(), "0000");
+    ContaOrdem* encontrada = cliente.getContaOrdem( criada -> getNumeroConta(), "0000");
     EXPECT_EQ(nullptr, encontrada);
 }
 
