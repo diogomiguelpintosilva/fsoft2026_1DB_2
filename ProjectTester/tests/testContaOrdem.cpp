@@ -6,7 +6,7 @@ TEST(ContaOrdemTest, ConstrutorSaldoZero) {
     ContaOrdem conta("C1234001", "1234");
 
     EXPECT_EQ("C1234001", conta.getNumeroConta());
-    EXPECT_DOUBLE_EQ("0.0", conta.getSaldo());
+    EXPECT_DOUBLE_EQ(0.0, conta.getSaldo());
 }
 
 TEST(ContaOrdemTest, DepositarValorValido) {
@@ -72,7 +72,7 @@ TEST(ContaOrdemTest, LevantarValorNegativo) {
 TEST(ContaOrdemTest, TransferirValido) {
     ContaOrdem origem("C1234001", "1234");
     ContaOrdem destino("C9876001", "5678");
-    origem.deposita(500.0);
+    origem.depositar(500.0);
 
     bool resultado = origem.transferir(destino, 200.0);
 
@@ -85,7 +85,7 @@ TEST(ContaOrdemTest, TransferirParaSiProprio) {
     ContaOrdem conta("C1234001", "1234");
     conta.depositar(500.0);
 
-    bol resultado = conta.transferir(conta, 100.0);
+    bool resultado = conta.transferir(conta, 100.0);
 
     EXPECT_FALSE(resultado);
     EXPECT_DOUBLE_EQ(500.0, conta.getSaldo());
@@ -146,13 +146,13 @@ TEST(ContaOrdemTest, HistoricoAposTransferencia) {
     ContaOrdem origem("C1234001", "1234");
     ContaOrdem destino("C9876001", "5678");
     origem.depositar(500.0);
-    origm.transferir(destino, 100.0);
+    origem.transferir(destino, 100.0);
 
     auto histOrigem = origem.getHistoricoCompleto();
-    auto histOrigem = destino.getHistoricoCompleto();
+    auto histDestino = destino.getHistoricoCompleto();
 
     EXPECT_EQ(2, histOrigem.size());
-    EXPECT_EQ(1, histOrigem.size());
+    EXPECT_EQ(1, histDestino.size());
     EXPECT_DOUBLE_EQ(-100.0, histOrigem[1].valor);
     EXPECT_DOUBLE_EQ(100.0, histDestino[0].valor);
 }
