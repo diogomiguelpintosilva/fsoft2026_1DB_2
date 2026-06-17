@@ -13,14 +13,14 @@ TEST(ClienteTest, ContrutorCorreto) {
     EXPECT_EQ("1234", cliente.getPassword());
 }
 
-TEST(ClientTest, VerificarPasswordCorreta) {
+TEST(ClienteTest, VerificarPasswordCorreta) {
 
     Cliente cliente("Tiago", "123456789", "1234");
 
     EXPECT_TRUE(cliente.verificarPassword("1234"));
 }
 
-TEST(ClientTest, VerificarPasswordErrada) {
+TEST(ClienteTest, VerificarPasswordErrada) {
 
     Cliente cliente("Tiago", "123456789", "1234");
     EXPECT_FALSE(cliente.verificarPassword("9999"));
@@ -32,7 +32,7 @@ TEST(ClienteTest, SemContasNoInicio) {
     EXPECT_EQ(0, cliente.numContasOrdem());
 }
 
-TEST(ClienetTest, CriarContaOrdem) {
+TEST(ClienteTest, CriarContaOrdem) {
 
     Cliente cliente("Tiago", "123456789", "1234");
 

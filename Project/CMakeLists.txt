@@ -78,3 +78,7 @@ add_executable(fsoft2026_1DB_2
         Headers/Persistencia.h
         Sources/Persistencia.cpp
 )
+
+# Caminho fixo do ficheiro de dados (Project/banco.dat), igual para todo o grupo
+target_compile_definitions(fsoft2026_1DB_2 PRIVATE
+        BANCO_DATA_FILE="${CMAKE_CURRENT_SOURCE_DIR}/banco.dat")
