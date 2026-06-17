@@ -9,6 +9,7 @@ class Gerenciamento {
 public:
     Gerenciamento();
 
+    void reiniciar();
     void atualizar(const ContaOrdem& conta);
 
     double getDespesas() const;

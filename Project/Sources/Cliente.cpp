@@ -60,8 +60,9 @@ Gerenciamento& Cliente::getGerenciamento() {
 }
 
 void Cliente::atualizarGerenciamento() {
+    gerenciamento.reiniciar();              // poe a zero uma vez
     for (auto& c : contasOrdem) {
-        gerenciamento.atualizar(*c);
+        gerenciamento.atualizar(*c);        // soma cada conta
     }
 }
 

@@ -5,10 +5,15 @@
 
 Gerenciamento::Gerenciamento() : despesas(0.0), ganhos(0.0), lucros(0.0) {}
 
-void Gerenciamento::atualizar(const ContaOrdem& conta) {
+void Gerenciamento::reiniciar() {
     despesas = 0.0;
     ganhos   = 0.0;
+    lucros   = 0.0;
+}
 
+void Gerenciamento::atualizar(const ContaOrdem& conta) {
+    // Soma os valores desta conta aos que ja existem (nao faz reset aqui),
+    // para que o resumo possa juntar varias contas do mesmo cliente.
     for (const auto& registo : conta.getHistoricoCompleto()) {
         if (registo.valor > 0) {
             ganhos += registo.valor;
